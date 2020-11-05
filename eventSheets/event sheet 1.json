@@ -1,0 +1,163 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 214772624989303,
+					"parameters": {
+						"key": 32
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 717376125695533,
+					"parameters": {
+						"first-value": "fist.Count",
+						"comparison": 3,
+						"second-value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "bones",
+					"sid": 716305886624262,
+					"parameters": {
+						"object": "fist",
+						"layer": "0",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "apply-impulse-at-angle",
+					"objectClass": "fist",
+					"sid": 694517710042246,
+					"behaviorType": "Physics",
+					"parameters": {
+						"impulse": "2",
+						"angle": "0",
+						"image-point": "0"
+					}
+				}
+			],
+			"sid": 189617774724245
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 790026429112140,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "bones",
+					"sid": 128133382935525,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "bones",
+					"sid": 720807949343118,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 846780136272147
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 332548806538816
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "pickupbox",
+					"sid": 626476029039707,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "bones",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 972302006673587
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "fistkiller",
+					"sid": 603886217654548,
+					"parameters": {
+						"object": "fist"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "fist",
+					"sid": 500784129614109
+				}
+			],
+			"sid": 597584033148375
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 522611581718229,
+					"parameters": {
+						"key": 90
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "pickupbox",
+					"sid": 210899682473233,
+					"parameters": {
+						"object": "fist"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "fist",
+					"sid": 574947764642959
+				}
+			],
+			"sid": 171779475144052
+		}
+	],
+	"sid": 352648134632573
+}

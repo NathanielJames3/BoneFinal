@@ -1,0 +1,60 @@
+{
+	"name": "fist",
+	"plugin-id": "Sprite",
+	"sid": 632791741481307,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "fists",
+			"type": "number",
+			"desc": "",
+			"sid": 225417189280978
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Physics",
+			"name": "Physics",
+			"sid": 247711658234889
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 944298629499331
+		},
+		{
+			"behaviorId": "destroy",
+			"name": "DestroyOutsideLayout",
+			"sid": 741526846961757
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 125,
+						"height": 89,
+						"originX": 0.384,
+						"originY": 0.4943820224719101,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7373004,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 285040734555672,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

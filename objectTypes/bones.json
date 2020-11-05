@@ -31,8 +31,8 @@
 					{
 						"width": 20,
 						"height": 29,
-						"originX": 0.6650943396226415,
-						"originY": 0.41471403376165283,
+						"originX": 0.5,
+						"originY": 0.3793103448275862,
 						"originalSource": "C:\\Users\\User\\Downloads\\boooone-1.png.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -63,7 +63,7 @@
 					{
 						"width": 18,
 						"height": 26,
-						"originX": 0.6666666666666666,
+						"originX": 0.5,
 						"originY": 0.34615384615384615,
 						"originalSource": "C:\\Users\\User\\Downloads\\boooone-2.png.png",
 						"exportFormat": "png",
@@ -95,7 +95,7 @@
 					{
 						"width": 18,
 						"height": 26,
-						"originX": 0.6666666666666666,
+						"originX": 0.5,
 						"originY": 0.34615384615384615,
 						"originalSource": "C:\\Users\\User\\Downloads\\boooone-3.png.png",
 						"exportFormat": "png",
@@ -127,7 +127,7 @@
 					{
 						"width": 18,
 						"height": 27,
-						"originX": 0.6666666666666666,
+						"originX": 0.5,
 						"originY": 0.37037037037037035,
 						"originalSource": "C:\\Users\\User\\Downloads\\boooone-4.png.png",
 						"exportFormat": "png",
@@ -170,12 +170,12 @@
 					{
 						"width": 20,
 						"height": 29,
-						"originX": 0.65,
-						"originY": 0.37037037037037035,
+						"originX": 0.5,
+						"originY": 0.3793103448275862,
 						"originalSource": "C:\\Users\\User\\Downloads\\boooone-1.png.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2963401,
+						"imageSpriteId": 2005849,
 						"collisionPoly": {
 							"points": [
 								0.4,
@@ -202,7 +202,7 @@
 					{
 						"width": 18,
 						"height": 26,
-						"originX": 0.6666666666666666,
+						"originX": 0.5555555555555556,
 						"originY": 0.34615384615384615,
 						"originalSource": "C:\\Users\\User\\Downloads\\boooone-2.png.png",
 						"exportFormat": "png",
@@ -234,7 +234,7 @@
 					{
 						"width": 18,
 						"height": 26,
-						"originX": 0.6666666666666666,
+						"originX": 0.5,
 						"originY": 0.34615384615384615,
 						"originalSource": "C:\\Users\\User\\Downloads\\boooone-3.png.png",
 						"exportFormat": "png",
@@ -266,7 +266,7 @@
 					{
 						"width": 18,
 						"height": 27,
-						"originX": 0.6666666666666666,
+						"originX": 0.5,
 						"originY": 0.37037037037037035,
 						"originalSource": "C:\\Users\\User\\Downloads\\boooone-4.png.png",
 						"exportFormat": "png",
@@ -309,8 +309,8 @@
 					{
 						"width": 20,
 						"height": 29,
-						"originX": 0.65,
-						"originY": 0.37037037037037035,
+						"originX": 0.55,
+						"originY": 0.41379310344827586,
 						"originalSource": "C:\\Users\\User\\Downloads\\boooone-1.png (1).png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -341,8 +341,8 @@
 					{
 						"width": 18,
 						"height": 26,
-						"originX": 0.6666666666666666,
-						"originY": 0.34615384615384615,
+						"originX": 0.5555555555555556,
+						"originY": 0.38461538461538464,
 						"originalSource": "C:\\Users\\User\\Downloads\\boooone-2.png.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -373,7 +373,7 @@
 					{
 						"width": 18,
 						"height": 26,
-						"originX": 0.6666666666666666,
+						"originX": 0.5555555555555556,
 						"originY": 0.34615384615384615,
 						"originalSource": "C:\\Users\\User\\Downloads\\boooone-3.png.png",
 						"exportFormat": "png",
@@ -405,7 +405,7 @@
 					{
 						"width": 18,
 						"height": 27,
-						"originX": 0.6666666666666666,
+						"originX": 0.5,
 						"originY": 0.37037037037037035,
 						"originalSource": "C:\\Users\\User\\Downloads\\boooone-4.png.png",
 						"exportFormat": "png",

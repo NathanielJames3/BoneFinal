@@ -52,9 +52,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-key-pressed",
+					"id": "key-is-down",
 					"objectClass": "Keyboard",
-					"sid": 790026429112140,
+					"sid": 817638261986771,
 					"parameters": {
 						"key": 37
 					}
@@ -87,9 +87,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-key-pressed",
+					"id": "key-is-down",
 					"objectClass": "Keyboard",
-					"sid": 638207900447193,
+					"sid": 561556911753736,
 					"parameters": {
 						"key": 39
 					}
@@ -309,6 +309,37 @@
 				}
 			],
 			"sid": 880287280097023
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-mirrored",
+					"objectClass": "bones",
+					"sid": 567585720031970
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle-of-motion",
+					"objectClass": "fist",
+					"sid": 522643328916940,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"angle": "180"
+					}
+				},
+				{
+					"id": "set-angle-of-motion",
+					"objectClass": "fist",
+					"sid": 779702569245932,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"angle": "-10"
+					}
+				}
+			],
+			"sid": 581525617982287
 		}
 	],
 	"sid": 352648134632573

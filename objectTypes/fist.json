@@ -9,12 +9,6 @@
 			"type": "number",
 			"desc": "",
 			"sid": 225417189280978
-		},
-		{
-			"name": "Direction",
-			"type": "number",
-			"desc": "",
-			"sid": 856984213277000
 		}
 	],
 	"behaviorTypes": [
@@ -32,11 +26,6 @@
 			"behaviorId": "destroy",
 			"name": "DestroyOutsideLayout",
 			"sid": 741526846961757
-		},
-		{
-			"behaviorId": "Bullet",
-			"name": "Bullet",
-			"sid": 543737034166658
 		}
 	],
 	"effectTypes": [],
@@ -45,14 +34,14 @@
 			{
 				"frames": [
 					{
-						"width": 41,
-						"height": 11,
-						"originX": 0.17073170731707318,
-						"originY": 0.5454545454545454,
+						"width": 125,
+						"height": 89,
+						"originX": 0.384,
+						"originY": 0.4943820224719101,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5541855,
+						"imageSpriteId": 7373004,
 						"useCollisionPoly": true,
 						"duration": 1
 					}

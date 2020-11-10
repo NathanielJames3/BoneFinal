@@ -72,14 +72,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Bullet",
-			"name": "Bullet",
-			"author": "Scirra",
-			"version": "r218",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "Pin",
 			"name": "Pin",
 			"author": "Scirra",
@@ -97,8 +89,7 @@
 			"Sprite",
 			"Keyboard",
 			"pickupbox",
-			"fistkiller",
-			"Sprite2"
+			"fistkiller"
 		],
 		"subfolders": []
 	},
@@ -223,7 +214,7 @@
 		"authorEmail": "",
 		"authorWebsite": "",
 		"appId": "",
-		"pixelRounding": true,
+		"pixelRounding": false,
 		"useLoaderLayout": false,
 		"fullscreenMode": "letterbox-scale",
 		"fullscreenQuality": "high",
@@ -253,7 +244,7 @@
 		"gpuPreference": "high-performance",
 		"framerateMode": "vsync",
 		"compositingMode": "standard",
-		"sampling": "bilinear",
+		"sampling": "trilinear",
 		"downscaling": "medium",
 		"maxSpriteSheetSize": 2048,
 		"loaderStyle": "splash",

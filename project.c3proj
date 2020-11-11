@@ -31,6 +31,22 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -89,7 +105,12 @@
 			"Sprite",
 			"Keyboard",
 			"pickupbox",
-			"fistkiller"
+			"fistkiller",
+			"Audio",
+			"snowFlakes",
+			"icePlains",
+			"icePlains2",
+			"icePlains3"
 		],
 		"subfolders": []
 	},
@@ -117,7 +138,68 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "Bone_crunch.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 577553253747612
+				},
+				{
+					"name": "Bones_rattling.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 871294837533368
+				},
+				{
+					"name": "Impact_1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 968214509553000
+				},
+				{
+					"name": "Impact_2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 746131398273804
+				},
+				{
+					"name": "Impact_3.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 933230355308391
+				},
+				{
+					"name": "Impact_4.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 368191919932824
+				},
+				{
+					"name": "Punch_1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 687927884562575
+				},
+				{
+					"name": "Punch_2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 716561442435145
+				},
+				{
+					"name": "Punch_3.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 410560420748167
+				},
+				{
+					"name": "Punch_4.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 373142084761225
+				},
+				{
+					"name": "Punch_5.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 815034626854865
+				},
+				{
+					"name": "Punch_6.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 973635805517912
+				}
+			],
 			"subfolders": []
 		},
 		"music": {

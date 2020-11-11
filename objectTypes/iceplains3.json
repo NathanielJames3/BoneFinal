@@ -1,0 +1,20 @@
+{
+	"name": "icePlains3",
+	"plugin-id": "TiledBg",
+	"sid": 457521540012817,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 1835,
+		"height": 734,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\tori0\\Downloads\\Sounds-Images\\Images\\Snow_background.gif",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 3676741,
+		"useCollisionPoly": true
+	}
+}

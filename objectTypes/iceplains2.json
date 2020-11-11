@@ -1,0 +1,20 @@
+{
+	"name": "icePlains2",
+	"plugin-id": "TiledBg",
+	"sid": 879922116749640,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 1280,
+		"height": 640,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\tori0\\Downloads\\Sounds-Images\\Images\\Ice_Plains1.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 8571832,
+		"useCollisionPoly": true
+	}
+}

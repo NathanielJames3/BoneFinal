@@ -2,329 +2,501 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
-			"eventType": "comment",
-			"text": "makes bones Shoot his arms "
+			"eventType": "group",
+			"disabled": false,
+			"title": "Protagonist Actions",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "comment",
+					"text": "makes bones Shoot his arms "
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 151122476685777,
+							"parameters": {
+								"key": 32
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 470092896601228,
+							"parameters": {
+								"first-value": "fist.Count",
+								"comparison": 3,
+								"second-value": "1"
+							}
+						},
+						{
+							"id": "is-mirrored",
+							"objectClass": "bones",
+							"sid": 711443946622969
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "bones",
+							"sid": 447529076040935,
+							"parameters": {
+								"object": "fist",
+								"layer": "0",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "bones",
+							"sid": 187612265575002,
+							"parameters": {
+								"animation": "\"attack\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "apply-impulse-at-angle",
+							"objectClass": "fist",
+							"sid": 861428084681554,
+							"behaviorType": "Physics",
+							"parameters": {
+								"impulse": "bones.PunchImpulse",
+								"angle": "180",
+								"image-point": "1"
+							}
+						}
+					],
+					"sid": 452458610353333
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 514087816346608,
+							"parameters": {
+								"key": 32
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 300548866528523,
+							"parameters": {
+								"first-value": "fist.Count",
+								"comparison": 3,
+								"second-value": "1"
+							}
+						},
+						{
+							"id": "is-mirrored",
+							"objectClass": "bones",
+							"sid": 619847875970183,
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "bones",
+							"sid": 864941604647295,
+							"parameters": {
+								"object": "fist",
+								"layer": "0",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "bones",
+							"sid": 126726609186652,
+							"parameters": {
+								"animation": "\"attack\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "apply-impulse-at-angle",
+							"objectClass": "fist",
+							"sid": 134719713039284,
+							"behaviorType": "Physics",
+							"parameters": {
+								"impulse": "bones.PunchImpulse",
+								"angle": "0",
+								"image-point": "1"
+							}
+						}
+					],
+					"sid": 648032084176594
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 392259689443318,
+							"parameters": {
+								"key": 37
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "bones",
+							"sid": 664998466680554,
+							"parameters": {
+								"state": "mirrored"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "bones",
+							"sid": 193664314142518,
+							"parameters": {
+								"animation": "\"walking\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 589467101521300
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 743254777996547
+						}
+					],
+					"actions": [
+						{
+							"id": "pin-to-object-properties",
+							"objectClass": "pickupbox",
+							"sid": 387651634653745,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "bones",
+								"x": true,
+								"y": true,
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						}
+					],
+					"sid": 202010415181118
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "fistkiller",
+							"sid": 943277942336107,
+							"parameters": {
+								"object": "fist"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "fist",
+							"sid": 549294476238521
+						}
+					],
+					"sid": 603581349011028
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 902573398947213,
+							"parameters": {
+								"key": 90
+							}
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "pickupbox",
+							"sid": 534383049401993,
+							"parameters": {
+								"object": "fist"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "fist",
+							"sid": 345607559729993
+						}
+					],
+					"sid": 543022102192183
+				},
+				{
+					"eventType": "comment",
+					"text": "Bones, our animation and him walking"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 295031771007780,
+							"parameters": {
+								"key": 39
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "bones",
+							"sid": 429419384116206,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "bones",
+							"sid": 857426162077555,
+							"parameters": {
+								"animation": "\"walking\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 817494231802591
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-released",
+							"objectClass": "Keyboard",
+							"sid": 357917207793255,
+							"parameters": {
+								"key": 37
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "bones",
+							"sid": 441580469372756,
+							"parameters": {
+								"animation": "\"idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 327483970590350
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-released",
+							"objectClass": "Keyboard",
+							"sid": 780824841891565,
+							"parameters": {
+								"key": 39
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "bones",
+							"sid": 102786680564467,
+							"parameters": {
+								"animation": "\"idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 286007993377305
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-outside-layout",
+							"objectClass": "bones",
+							"sid": 655161137648376
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 344685066373408
+						}
+					],
+					"sid": 530708287425272
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "bones",
+							"sid": 734709774953164,
+							"parameters": {
+								"instance-variable": "HP",
+								"comparison": 3,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 410602302875187
+						}
+					],
+					"sid": 712424107280726
+				}
+			],
+			"sid": 471424008052063
 		},
 		{
-			"eventType": "block",
-			"conditions": [
+			"eventType": "group",
+			"disabled": false,
+			"title": "NME Actions",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 214772624989303,
-					"parameters": {
-						"key": 32
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "NME",
+							"sid": 333209036645111,
+							"parameters": {
+								"object": "fist"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "NME",
+							"sid": 197343367783058
+						}
+					],
+					"sid": 850711708563081
 				},
 				{
-					"id": "compare-two-values",
-					"objectClass": "System",
-					"sid": 717376125695533,
-					"parameters": {
-						"first-value": "fist.Count",
-						"comparison": 3,
-						"second-value": "1"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "NME",
+							"sid": 750503678717249,
+							"parameters": {
+								"object": "bones"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "bones",
+							"sid": 107080206531846,
+							"parameters": {
+								"instance-variable": "HP",
+								"value": "1"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 329862996704886,
+							"parameters": {
+								"audio-file": "Impact_4",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "NME",
+							"sid": 851613758887979
+						}
+					],
+					"sid": 405275169645375
 				},
 				{
-					"id": "is-mirrored",
-					"objectClass": "bones",
-					"sid": 972498531672674
-				}
-			],
-			"actions": [
-				{
-					"id": "spawn-another-object",
-					"objectClass": "bones",
-					"sid": 716305886624262,
-					"parameters": {
-						"object": "fist",
-						"layer": "0",
-						"image-point": "0"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 337807569179503
+						}
+					],
+					"actions": [
+						{
+							"id": "move-at-angle",
+							"objectClass": "NME",
+							"sid": 675626568790157,
+							"parameters": {
+								"angle": "180",
+								"distance": "5"
+							}
+						}
+					],
+					"sid": 574907118023788
 				},
 				{
-					"id": "set-animation",
-					"objectClass": "bones",
-					"sid": 930902814695795,
-					"parameters": {
-						"animation": "\"attack\"",
-						"from": "beginning"
-					}
-				},
-				{
-					"id": "apply-impulse-at-angle",
-					"objectClass": "fist",
-					"sid": 677077893993040,
-					"behaviorType": "Physics",
-					"parameters": {
-						"impulse": "bones.PunchImpulse",
-						"angle": "180",
-						"image-point": "1"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 108106911262382,
+							"parameters": {
+								"interval-seconds": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 344057035261345,
+							"parameters": {
+								"object-to-create": "NME",
+								"layer": "0",
+								"x": "NMESpawnerTemp.X",
+								"y": "NMESpawnerTemp.Y"
+							}
+						}
+					],
+					"sid": 137484867290038
 				}
 			],
-			"sid": 189617774724245
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 749583860629448,
-					"parameters": {
-						"key": 32
-					}
-				},
-				{
-					"id": "compare-two-values",
-					"objectClass": "System",
-					"sid": 316759086031573,
-					"parameters": {
-						"first-value": "fist.Count",
-						"comparison": 3,
-						"second-value": "1"
-					}
-				},
-				{
-					"id": "is-mirrored",
-					"objectClass": "bones",
-					"sid": 917505690539436,
-					"isInverted": true
-				}
-			],
-			"actions": [
-				{
-					"id": "spawn-another-object",
-					"objectClass": "bones",
-					"sid": 556632106862180,
-					"parameters": {
-						"object": "fist",
-						"layer": "0",
-						"image-point": "0"
-					}
-				},
-				{
-					"id": "set-animation",
-					"objectClass": "bones",
-					"sid": 919747655935718,
-					"parameters": {
-						"animation": "\"attack\"",
-						"from": "beginning"
-					}
-				},
-				{
-					"id": "apply-impulse-at-angle",
-					"objectClass": "fist",
-					"sid": 579839675243046,
-					"behaviorType": "Physics",
-					"parameters": {
-						"impulse": "bones.PunchImpulse",
-						"angle": "0",
-						"image-point": "1"
-					}
-				}
-			],
-			"sid": 969246601633996
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 353329627382938,
-					"parameters": {
-						"key": 37
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-mirrored",
-					"objectClass": "bones",
-					"sid": 148992745507654,
-					"parameters": {
-						"state": "mirrored"
-					}
-				},
-				{
-					"id": "set-animation",
-					"objectClass": "bones",
-					"sid": 597794288715092,
-					"parameters": {
-						"animation": "\"walking\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 846780136272147
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 332548806538816
-				}
-			],
-			"actions": [
-				{
-					"id": "pin-to-object-properties",
-					"objectClass": "pickupbox",
-					"sid": 626476029039707,
-					"behaviorType": "Pin",
-					"parameters": {
-						"pin-to": "bones",
-						"x": true,
-						"y": true,
-						"angle": true,
-						"width-type": "no",
-						"height-type": "no",
-						"z": false
-					}
-				}
-			],
-			"sid": 972302006673587
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "fistkiller",
-					"sid": 603886217654548,
-					"parameters": {
-						"object": "fist"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "fist",
-					"sid": 500784129614109
-				}
-			],
-			"sid": 597584033148375
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 522611581718229,
-					"parameters": {
-						"key": 90
-					}
-				},
-				{
-					"id": "is-overlapping-another-object",
-					"objectClass": "pickupbox",
-					"sid": 210899682473233,
-					"parameters": {
-						"object": "fist"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "fist",
-					"sid": 574947764642959
-				}
-			],
-			"sid": 171779475144052
-		},
-		{
-			"eventType": "comment",
-			"text": "Bones, our animation and him walking"
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 259863173236546,
-					"parameters": {
-						"key": 39
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-mirrored",
-					"objectClass": "bones",
-					"sid": 624913710172461,
-					"parameters": {
-						"state": "not-mirrored"
-					}
-				},
-				{
-					"id": "set-animation",
-					"objectClass": "bones",
-					"sid": 564533144279030,
-					"parameters": {
-						"animation": "\"walking\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 483451179820895
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-key-released",
-					"objectClass": "Keyboard",
-					"sid": 142117063797754,
-					"parameters": {
-						"key": 37
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "bones",
-					"sid": 853410927272094,
-					"parameters": {
-						"animation": "\"idle\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 713478239092095
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-key-released",
-					"objectClass": "Keyboard",
-					"sid": 780682725560328,
-					"parameters": {
-						"key": 39
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "bones",
-					"sid": 561898860449536,
-					"parameters": {
-						"animation": "\"idle\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 247602317375918
+			"sid": 227771399094321
 		}
 	],
 	"sid": 352648134632573

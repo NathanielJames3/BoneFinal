@@ -9,6 +9,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 132460848578690
+		},
+		{
+			"name": "HP",
+			"type": "number",
+			"desc": "",
+			"sid": 921099852040061
 		}
 	],
 	"behaviorTypes": [

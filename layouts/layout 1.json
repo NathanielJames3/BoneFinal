@@ -99,7 +99,8 @@
 					},
 					"uid": 3,
 					"instanceVariables": {
-						"PunchImpulse": 10
+						"PunchImpulse": 10,
+						"HP": 3
 					},
 					"behaviors": {
 						"Platform": {
@@ -246,6 +247,71 @@
 						"y": 413,
 						"width": 54,
 						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "NME",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 10,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 1364.5,
+						"y": 436,
+						"width": 78,
+						"height": 77,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "NMESpawnerTemp",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 11,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1653,
+						"y": 432,
+						"width": 54,
+						"height": 47,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

@@ -110,7 +110,9 @@
 			"snowFlakes",
 			"icePlains",
 			"icePlains2",
-			"icePlains3"
+			"icePlains3",
+			"NME",
+			"NMESpawnerTemp"
 		],
 		"subfolders": []
 	},

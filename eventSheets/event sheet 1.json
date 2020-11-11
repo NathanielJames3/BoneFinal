@@ -2,6 +2,10 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
+			"eventType": "comment",
+			"text": "makes bones Shoot his arms "
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -35,23 +39,23 @@
 					}
 				},
 				{
-					"id": "apply-impulse-at-angle",
-					"objectClass": "fist",
-					"sid": 353860769363712,
-					"behaviorType": "Physics",
-					"parameters": {
-						"impulse": "5",
-						"angle": "0",
-						"image-point": "0"
-					}
-				},
-				{
 					"id": "set-animation",
 					"objectClass": "bones",
 					"sid": 930902814695795,
 					"parameters": {
 						"animation": "\"attack\"",
 						"from": "beginning"
+					}
+				},
+				{
+					"id": "apply-impulse-at-angle",
+					"objectClass": "fist",
+					"sid": 810674864891924,
+					"behaviorType": "Physics",
+					"parameters": {
+						"impulse": "5",
+						"angle": "0",
+						"image-point": "0"
 					}
 				}
 			],
@@ -167,6 +171,10 @@
 				}
 			],
 			"sid": 171779475144052
+		},
+		{
+			"eventType": "comment",
+			"text": "Bones, our animation and him walking"
 		},
 		{
 			"eventType": "block",

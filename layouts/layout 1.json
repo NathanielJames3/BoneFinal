@@ -231,35 +231,6 @@
 					}
 				},
 				{
-					"type": "fistkiller",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 8,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1163,
-						"y": 413,
-						"width": 54,
-						"height": 120,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "NME",
 					"properties": {
 						"initially-visible": true,
@@ -279,12 +250,12 @@
 						}
 					},
 					"world": {
-						"x": 1364.5,
-						"y": 436,
-						"width": 78,
-						"height": 77,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 1391.3339202732095,
+						"y": 385.96353043072463,
+						"width": 55.99029384939584,
+						"height": 94.28833044170506,
+						"originX": 0.5294117647058824,
+						"originY": 0.41379310344827586,
 						"color": [
 							1,
 							1,

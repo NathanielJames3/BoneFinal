@@ -112,7 +112,8 @@
 			"icePlains2",
 			"icePlains3",
 			"NME",
-			"NMESpawnerTemp"
+			"NMESpawnerTemp",
+			"Goal"
 		],
 		"subfolders": []
 	},

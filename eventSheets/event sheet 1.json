@@ -69,6 +69,17 @@
 								"angle": "180",
 								"image-point": "1"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 903656952410814,
+							"parameters": {
+								"audio-file": "Punch_1",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 452458610353333
@@ -130,6 +141,17 @@
 								"impulse": "bones.PunchImpulse",
 								"angle": "0",
 								"image-point": "1"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 912360402182959,
+							"parameters": {
+								"audio-file": "Punch_1",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -373,6 +395,27 @@
 						}
 					],
 					"sid": 712424107280726
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "bones",
+							"sid": 814881276479669,
+							"parameters": {
+								"object": "Goal"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 256585137260953
+						}
+					],
+					"sid": 145699225540784
 				}
 			],
 			"sid": 471424008052063
@@ -401,6 +444,17 @@
 							"id": "destroy",
 							"objectClass": "NME",
 							"sid": 197343367783058
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 868176553376014,
+							"parameters": {
+								"audio-file": "Bone_crunch",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 850711708563081
@@ -494,6 +548,24 @@
 						}
 					],
 					"sid": 137484867290038
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-outside-layout",
+							"objectClass": "NME",
+							"sid": 755377200187493
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "NME",
+							"sid": 649205135586339
+						}
+					],
+					"sid": 518377543155909
 				}
 			],
 			"sid": 227771399094321

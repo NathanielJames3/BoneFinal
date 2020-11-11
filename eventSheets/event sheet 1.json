@@ -37,12 +37,21 @@
 				{
 					"id": "apply-impulse-at-angle",
 					"objectClass": "fist",
-					"sid": 694517710042246,
+					"sid": 353860769363712,
 					"behaviorType": "Physics",
 					"parameters": {
-						"impulse": "2",
+						"impulse": "5",
 						"angle": "0",
 						"image-point": "0"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 930902814695795,
+					"parameters": {
+						"animation": "\"attack\"",
+						"from": "beginning"
 					}
 				}
 			],
@@ -54,7 +63,7 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
-					"sid": 790026429112140,
+					"sid": 353329627382938,
 					"parameters": {
 						"key": 37
 					}
@@ -64,17 +73,18 @@
 				{
 					"id": "set-mirrored",
 					"objectClass": "bones",
-					"sid": 128133382935525,
+					"sid": 148992745507654,
 					"parameters": {
-						"state": "not-mirrored"
+						"state": "mirrored"
 					}
 				},
 				{
-					"id": "set-mirrored",
+					"id": "set-animation",
 					"objectClass": "bones",
-					"sid": 720807949343118,
+					"sid": 597794288715092,
 					"parameters": {
-						"state": "mirrored"
+						"animation": "\"walking\"",
+						"from": "beginning"
 					}
 				}
 			],
@@ -157,6 +167,89 @@
 				}
 			],
 			"sid": 171779475144052
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 259863173236546,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "bones",
+					"sid": 624913710172461,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 564533144279030,
+					"parameters": {
+						"animation": "\"walking\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 483451179820895
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 142117063797754,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 853410927272094,
+					"parameters": {
+						"animation": "\"idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 713478239092095
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 780682725560328,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 561898860449536,
+					"parameters": {
+						"animation": "\"idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 247602317375918
 		}
 	],
 	"sid": 352648134632573

@@ -92,7 +92,7 @@
 					"type": "bones",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "walking",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -121,12 +121,12 @@
 						}
 					},
 					"world": {
-						"x": 724,
-						"y": 346,
-						"width": 71,
-						"height": 74,
-						"originX": 0.5094339622641509,
-						"originY": 0.5374149659863946,
+						"x": 762.6428123010845,
+						"y": 271.991310948903,
+						"width": 59.81090908436489,
+						"height": 140.04060420942656,
+						"originX": 0.7155297532656023,
+						"originY": 0.41471403376165283,
 						"color": [
 							1,
 							1,
@@ -176,12 +176,12 @@
 						}
 					},
 					"world": {
-						"x": 863.128,
-						"y": -62.70786516853933,
-						"width": 42,
-						"height": 37,
-						"originX": 0.384,
-						"originY": 0.4943820224719101,
+						"x": 876.6119972776916,
+						"y": -71.04969066470348,
+						"width": 82.88148604816895,
+						"height": 27.513053822316586,
+						"originX": 0.1951219512195122,
+						"originY": 0.6363636363636364,
 						"color": [
 							1,
 							1,

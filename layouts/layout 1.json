@@ -98,7 +98,9 @@
 						"live-preview": false
 					},
 					"uid": 3,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"PunchImpulse": 10
+					},
 					"behaviors": {
 						"Platform": {
 							"properties": {
@@ -125,8 +127,8 @@
 						"y": 271.991310948903,
 						"width": 59.81090908436489,
 						"height": 140.04060420942656,
-						"originX": 0.7155297532656023,
-						"originY": 0.41471403376165283,
+						"originX": 0.7692307692307693,
+						"originY": 0.48148148148148145,
 						"color": [
 							1,
 							1,

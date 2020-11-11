@@ -25,6 +25,11 @@
 						"comparison": 3,
 						"second-value": "1"
 					}
+				},
+				{
+					"id": "is-mirrored",
+					"objectClass": "bones",
+					"sid": 972498531672674
 				}
 			],
 			"actions": [
@@ -50,16 +55,78 @@
 				{
 					"id": "apply-impulse-at-angle",
 					"objectClass": "fist",
-					"sid": 810674864891924,
+					"sid": 677077893993040,
 					"behaviorType": "Physics",
 					"parameters": {
-						"impulse": "5",
-						"angle": "0",
-						"image-point": "0"
+						"impulse": "bones.PunchImpulse",
+						"angle": "180",
+						"image-point": "1"
 					}
 				}
 			],
 			"sid": 189617774724245
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 749583860629448,
+					"parameters": {
+						"key": 32
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 316759086031573,
+					"parameters": {
+						"first-value": "fist.Count",
+						"comparison": 3,
+						"second-value": "1"
+					}
+				},
+				{
+					"id": "is-mirrored",
+					"objectClass": "bones",
+					"sid": 917505690539436,
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "bones",
+					"sid": 556632106862180,
+					"parameters": {
+						"object": "fist",
+						"layer": "0",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 919747655935718,
+					"parameters": {
+						"animation": "\"attack\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "apply-impulse-at-angle",
+					"objectClass": "fist",
+					"sid": 579839675243046,
+					"behaviorType": "Physics",
+					"parameters": {
+						"impulse": "bones.PunchImpulse",
+						"angle": "0",
+						"image-point": "1"
+					}
+				}
+			],
+			"sid": 969246601633996
 		},
 		{
 			"eventType": "block",

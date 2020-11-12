@@ -99,7 +99,7 @@
 					},
 					"uid": 3,
 					"instanceVariables": {
-						"PunchImpulse": 10
+						"PunchImpulse": 8
 					},
 					"behaviors": {
 						"Platform": {

@@ -128,8 +128,13 @@
 						"width": 59.81090908436489,
 						"height": 140.04060420942656,
 <<<<<<< HEAD
+<<<<<<< HEAD
 						"originX": 0.6153846153846154,
 						"originY": 0.37037037037037035,
+=======
+						"originX": 0.7692307692307693,
+						"originY": 0.48148148148148145,
+>>>>>>> parent of 526fed1... Created level, made goal to loop level, made enemies harder to avoid
 =======
 						"originX": 0.7692307692307693,
 						"originY": 0.48148148148148145,
@@ -301,6 +306,9 @@
 						"y": 432,
 						"width": 54,
 						"height": 47,
+<<<<<<< HEAD
+>>>>>>> parent of 526fed1... Created level, made goal to loop level, made enemies harder to avoid
+=======
 >>>>>>> parent of 526fed1... Created level, made goal to loop level, made enemies harder to avoid
 						"originX": 0.5,
 						"originY": 0.5,

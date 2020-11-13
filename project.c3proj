@@ -116,6 +116,9 @@
 			"icePlains3",
 			"NME",
 			"NMESpawnerTemp"
+<<<<<<< HEAD
+>>>>>>> parent of 526fed1... Created level, made goal to loop level, made enemies harder to avoid
+=======
 >>>>>>> parent of 526fed1... Created level, made goal to loop level, made enemies harder to avoid
 		],
 		"subfolders": []

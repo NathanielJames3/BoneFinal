@@ -129,13 +129,15 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Layout 1",
+			"intro"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Event sheet 1",
+			"introScene"
 		],
 		"subfolders": []
 	},

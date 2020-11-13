@@ -1,0 +1,20 @@
+{
+	"name": "snow",
+	"plugin-id": "TiledBg",
+	"sid": 693182851181426,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 235,
+		"height": 352,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "E:\\BCBEAR\\Sprites\\snow.jpg",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 8369958,
+		"useCollisionPoly": true
+	}
+}

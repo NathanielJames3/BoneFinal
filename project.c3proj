@@ -80,8 +80,8 @@
 		},
 		{
 			"type": "behavior",
-			"id": "destroy",
-			"name": "Destroy outside layout",
+			"id": "bound",
+			"name": "Bound to layout",
 			"author": "Scirra",
 			"version": "r218",
 			"bundled": false
@@ -110,7 +110,14 @@
 			"snowFlakes",
 			"icePlains",
 			"icePlains2",
-			"icePlains3"
+			"icePlains3",
+			"snow",
+			"Sprite2",
+			"BlockSurroundingButton",
+			"platform2",
+			"endDoorBlock",
+			"DEATH",
+			"dangerSign"
 		],
 		"subfolders": []
 	},

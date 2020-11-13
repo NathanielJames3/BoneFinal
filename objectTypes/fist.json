@@ -23,9 +23,9 @@
 			"sid": 944298629499331
 		},
 		{
-			"behaviorId": "destroy",
-			"name": "DestroyOutsideLayout",
-			"sid": 741526846961757
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 711618786161997
 		}
 	],
 	"effectTypes": [],

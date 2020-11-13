@@ -185,6 +185,16 @@
 						"height-type": "no",
 						"z": false
 					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 771980046739961,
+					"disabled": true,
+					"parameters": {
+						"animation": "\"idle\"",
+						"from": "beginning"
+					}
 				}
 			],
 			"sid": 972302006673587
@@ -299,7 +309,8 @@
 					}
 				}
 			],
-			"sid": 713478239092095
+			"sid": 713478239092095,
+			"disabled": true
 		},
 		{
 			"eventType": "block",
@@ -324,7 +335,84 @@
 					}
 				}
 			],
-			"sid": 247602317375918
+			"sid": 247602317375918,
+			"disabled": true
+		},
+		{
+			"eventType": "comment",
+			"text": "this is allowing the button to change color when hit with, will hold all controls for layout 1"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "fist",
+					"sid": 573010016021413,
+					"parameters": {
+						"object": "Sprite2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite2",
+					"sid": 106489114675675,
+					"parameters": {
+						"animation": "\"greenButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "platform2",
+					"sid": 689500741431232
+				}
+			],
+			"sid": 293579554800768
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bones",
+					"sid": 642247001230513,
+					"parameters": {
+						"object": "endDoorBlock"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 417350578709815
+				}
+			],
+			"sid": 808629250299448
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bones",
+					"sid": 994746127398106,
+					"parameters": {
+						"object": "DEATH"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 364196155047058
+				}
+			],
+			"sid": 940315693542581
 		}
 	],
 	"sid": 352648134632573

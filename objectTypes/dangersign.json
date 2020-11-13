@@ -1,0 +1,57 @@
+{
+	"name": "dangerSign",
+	"plugin-id": "Sprite",
+	"sid": 797779009470192,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 189,
+						"height": 178,
+						"originX": 0.5291005291005291,
+						"originY": 0.5308988764044944,
+						"originalSource": "E:\\BCBEAR\\Sprites\\step.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2254855,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5291005291005291,
+								0,
+								1,
+								0,
+								1,
+								0.5308988764044944,
+								1,
+								1,
+								0.5291005291005291,
+								1,
+								0,
+								1,
+								0,
+								0.5308988764044944
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 284791720803386,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

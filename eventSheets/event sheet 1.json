@@ -17,6 +17,7 @@
 					}
 				},
 				{
+<<<<<<< HEAD
 					"id": "compare-two-values",
 					"objectClass": "System",
 					"sid": 717376125695533,
@@ -33,6 +34,130 @@
 				}
 			],
 			"actions": [
+=======
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 151122476685777,
+							"parameters": {
+								"key": 32
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 470092896601228,
+							"parameters": {
+								"first-value": "fist.Count",
+								"comparison": 3,
+								"second-value": "1"
+							}
+						},
+						{
+							"id": "is-mirrored",
+							"objectClass": "bones",
+							"sid": 711443946622969
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "bones",
+							"sid": 447529076040935,
+							"parameters": {
+								"object": "fist",
+								"layer": "0",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "bones",
+							"sid": 187612265575002,
+							"parameters": {
+								"animation": "\"attack\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "apply-impulse-at-angle",
+							"objectClass": "fist",
+							"sid": 861428084681554,
+							"behaviorType": "Physics",
+							"parameters": {
+								"impulse": "bones.PunchImpulse",
+								"angle": "180",
+								"image-point": "1"
+							}
+						}
+					],
+					"sid": 452458610353333
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 514087816346608,
+							"parameters": {
+								"key": 32
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 300548866528523,
+							"parameters": {
+								"first-value": "fist.Count",
+								"comparison": 3,
+								"second-value": "1"
+							}
+						},
+						{
+							"id": "is-mirrored",
+							"objectClass": "bones",
+							"sid": 619847875970183,
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "bones",
+							"sid": 864941604647295,
+							"parameters": {
+								"object": "fist",
+								"layer": "0",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "bones",
+							"sid": 126726609186652,
+							"parameters": {
+								"animation": "\"attack\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "apply-impulse-at-angle",
+							"objectClass": "fist",
+							"sid": 134719713039284,
+							"behaviorType": "Physics",
+							"parameters": {
+								"impulse": "bones.PunchImpulse",
+								"angle": "0",
+								"image-point": "1"
+							}
+						}
+					],
+					"sid": 648032084176594
+				},
+>>>>>>> parent of 526fed1... Created level, made goal to loop level, made enemies harder to avoid
 				{
 					"id": "spawn-another-object",
 					"objectClass": "bones",
@@ -142,6 +267,7 @@
 			],
 			"actions": [
 				{
+<<<<<<< HEAD
 					"id": "set-mirrored",
 					"objectClass": "bones",
 					"sid": 148992745507654,
@@ -157,6 +283,29 @@
 						"animation": "\"walking\"",
 						"from": "beginning"
 					}
+=======
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "bones",
+							"sid": 734709774953164,
+							"parameters": {
+								"instance-variable": "HP",
+								"comparison": 3,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 410602302875187
+						}
+					],
+					"sid": 712424107280726
+>>>>>>> parent of 526fed1... Created level, made goal to loop level, made enemies harder to avoid
 				}
 			],
 			"sid": 846780136272147
@@ -165,12 +314,35 @@
 			"eventType": "block",
 			"conditions": [
 				{
+<<<<<<< HEAD
 					"id": "on-start-of-layout",
 					"objectClass": "System",
 					"sid": 332548806538816
 				}
 			],
 			"actions": [
+=======
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "NME",
+							"sid": 333209036645111,
+							"parameters": {
+								"object": "fist"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "NME",
+							"sid": 197343367783058
+						}
+					],
+					"sid": 850711708563081
+				},
+>>>>>>> parent of 526fed1... Created level, made goal to loop level, made enemies harder to avoid
 				{
 					"id": "pin-to-object-properties",
 					"objectClass": "pickupbox",
@@ -222,6 +394,7 @@
 					}
 				},
 				{
+<<<<<<< HEAD
 					"id": "is-overlapping-another-object",
 					"objectClass": "pickupbox",
 					"sid": 210899682473233,
@@ -322,6 +495,33 @@
 						"animation": "\"idle\"",
 						"from": "beginning"
 					}
+=======
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 108106911262382,
+							"parameters": {
+								"interval-seconds": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 344057035261345,
+							"parameters": {
+								"object-to-create": "NME",
+								"layer": "0",
+								"x": "NMESpawnerTemp.X",
+								"y": "NMESpawnerTemp.Y"
+							}
+						}
+					],
+					"sid": 137484867290038
+>>>>>>> parent of 526fed1... Created level, made goal to loop level, made enemies harder to avoid
 				}
 			],
 			"sid": 247602317375918

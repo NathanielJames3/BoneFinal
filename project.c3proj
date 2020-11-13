@@ -110,7 +110,13 @@
 			"snowFlakes",
 			"icePlains",
 			"icePlains2",
+<<<<<<< HEAD
 			"icePlains3"
+=======
+			"icePlains3",
+			"NME",
+			"NMESpawnerTemp"
+>>>>>>> parent of 526fed1... Created level, made goal to loop level, made enemies harder to avoid
 		],
 		"subfolders": []
 	},

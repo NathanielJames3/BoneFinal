@@ -1,0 +1,57 @@
+{
+	"name": "firstPaint",
+	"plugin-id": "Sprite",
+	"sid": 212959983828689,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 498,
+						"height": 500,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "E:\\BCBEAR\\Sprites\\BoxingIntro_1.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6582327,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9979919678714859,
+								0,
+								0.9979919678714859,
+								0.5,
+								0.9979919678714859,
+								0.998,
+								0.5,
+								0.998,
+								0,
+								0.998,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 132474730215053,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

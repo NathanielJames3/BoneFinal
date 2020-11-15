@@ -1,7 +1,7 @@
 {
-	"name": "DEATH",
+	"name": "introWall",
 	"plugin-id": "Sprite",
-	"sid": 123122085761341,
+	"sid": 134795863327442,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,31 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 252,
-						"height": 242,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
-						"originY": 0.4793388429752066,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1556804,
-						"collisionPoly": {
-							"points": [
-								0.003968253968253968,
-								0,
-								0.996031746031746,
-								0,
-								0.996031746031746,
-								0.9958677685950413,
-								0.003968253968253968,
-								0.9958677685950413
-							]
-						},
+						"imageSpriteId": 9616026,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 667204389216942,
+				"sid": 744446474335042,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

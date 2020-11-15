@@ -117,7 +117,12 @@
 			"platform2",
 			"endDoorBlock",
 			"DEATH",
-			"dangerSign"
+			"dangerSign",
+			"enemyPlaceHolder",
+			"introFloor",
+			"introCarpet",
+			"introWall",
+			"carpetHitbox"
 		],
 		"subfolders": []
 	},

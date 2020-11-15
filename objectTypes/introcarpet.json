@@ -1,7 +1,7 @@
 {
-	"name": "DEATH",
+	"name": "introCarpet",
 	"plugin-id": "Sprite",
-	"sid": 123122085761341,
+	"sid": 837184056524628,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,31 +11,31 @@
 			{
 				"frames": [
 					{
-						"width": 252,
-						"height": 242,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
-						"originY": 0.4793388429752066,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1556804,
+						"imageSpriteId": 1643391,
 						"collisionPoly": {
 							"points": [
-								0.003968253968253968,
+								0.002,
+								0.05400000000000002,
+								1,
+								0.05000000000000003,
+								1,
+								0.94,
 								0,
-								0.996031746031746,
-								0,
-								0.996031746031746,
-								0.9958677685950413,
-								0.003968253968253968,
-								0.9958677685950413
+								0.94
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 667204389216942,
+				"sid": 200524512943114,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

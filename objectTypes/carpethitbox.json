@@ -1,41 +1,35 @@
 {
-	"name": "DEATH",
+	"name": "carpetHitbox",
 	"plugin-id": "Sprite",
-	"sid": 123122085761341,
+	"sid": 979330194781502,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 111347108795996
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 252,
-						"height": 242,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
-						"originY": 0.4793388429752066,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1556804,
-						"collisionPoly": {
-							"points": [
-								0.003968253968253968,
-								0,
-								0.996031746031746,
-								0,
-								0.996031746031746,
-								0.9958677685950413,
-								0.003968253968253968,
-								0.9958677685950413
-							]
-						},
+						"imageSpriteId": 6012914,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 667204389216942,
+				"sid": 133074141772597,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

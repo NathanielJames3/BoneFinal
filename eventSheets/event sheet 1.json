@@ -416,6 +416,37 @@
 				}
 			],
 			"sid": 940315693542581
+		},
+		{
+			"eventType": "comment",
+			"text": "Plays jump sound on key pressed"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 548242104826290,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 608907171493022,
+					"parameters": {
+						"audio-file": "Jump_1",
+						"loop": "not-looping",
+						"volume": "-12",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 877909648495333
 		}
 	],
 	"sid": 352648134632573

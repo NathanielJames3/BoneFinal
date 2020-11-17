@@ -350,14 +350,14 @@
 						"duration": 1
 					},
 					{
-						"width": 18,
-						"height": 26,
-						"originX": 0.5555555555555556,
-						"originY": 0.4230769230769231,
+						"width": 20,
+						"height": 27,
+						"originX": 0.5,
+						"originY": 0.4074074074074074,
 						"originalSource": "C:\\Users\\User\\Downloads\\boooone-2.png.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6027674,
+						"imageSpriteId": 9671167,
 						"collisionPoly": {
 							"points": [
 								0.3888888888888889,
@@ -382,14 +382,14 @@
 						"duration": 1
 					},
 					{
-						"width": 18,
-						"height": 26,
-						"originX": 0.6666666666666666,
-						"originY": 0.34615384615384615,
+						"width": 20,
+						"height": 27,
+						"originX": 0.5,
+						"originY": 0.4074074074074074,
 						"originalSource": "C:\\Users\\User\\Downloads\\boooone-3.png.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7913351,
+						"imageSpriteId": 4476115,
 						"collisionPoly": {
 							"points": [
 								0.3888888888888889,
@@ -414,14 +414,14 @@
 						"duration": 1
 					},
 					{
-						"width": 18,
+						"width": 20,
 						"height": 27,
-						"originX": 0.7222222222222222,
-						"originY": 0.3333333333333333,
+						"originX": 0.5,
+						"originY": 0.4074074074074074,
 						"originalSource": "C:\\Users\\User\\Downloads\\boooone-4.png.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5140995,
+						"imageSpriteId": 3777254,
 						"collisionPoly": {
 							"points": [
 								0.3888888888888889,

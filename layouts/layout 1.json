@@ -307,7 +307,7 @@
 					"type": "enemyPlaceHolder",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "walking anim",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -337,12 +337,12 @@
 						}
 					},
 					"world": {
-						"x": 2180,
-						"y": 818,
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 2238.235294117647,
+						"y": 761.1379310344828,
+						"width": 127,
+						"height": 126,
+						"originX": 0.5294117647058824,
+						"originY": 0.41379310344827586,
 						"color": [
 							1,
 							1,

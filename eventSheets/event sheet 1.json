@@ -395,8 +395,7 @@
 							}
 						}
 					],
-					"sid": 232653677342706,
-					"disabled": true
+					"sid": 232653677342706
 				},
 				{
 					"eventType": "block",
@@ -421,8 +420,7 @@
 							}
 						}
 					],
-					"sid": 640161657697486,
-					"disabled": true
+					"sid": 640161657697486
 				},
 				{
 					"eventType": "comment",
@@ -605,6 +603,107 @@
 						}
 					],
 					"sid": 309954191671875
+				},
+				{
+					"eventType": "comment",
+					"text": "arm kill"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "fist",
+							"sid": 265239269051824,
+							"parameters": {
+								"object": "enemyPlaceHolder"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "enemyPlaceHolder",
+							"sid": 620373302116275
+						}
+					],
+					"sid": 544468139356606
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 639752105939767,
+							"parameters": {
+								"first-value": "fist.Count",
+								"comparison": 0,
+								"second-value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "bones",
+							"sid": 692966781905872,
+							"parameters": {
+								"animation": "\"one arm\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 459419734501410
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 372509374159113,
+							"parameters": {
+								"first-value": "fist.Count",
+								"comparison": 0,
+								"second-value": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "bones",
+							"sid": 348550294955005,
+							"parameters": {
+								"animation": "\"no arms\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 229439193392238
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 981755761439766
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "bones",
+							"sid": 305362868005112,
+							"parameters": {
+								"animation": "\"idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 733654084478388
 				}
 			],
 			"sid": 486650141058451

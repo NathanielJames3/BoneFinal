@@ -452,7 +452,8 @@
 					},
 					"uid": 31,
 					"instanceVariables": {
-						"PunchImpulse": 8
+						"PunchImpulse": 8,
+						"HP": 3
 					},
 					"behaviors": {
 						"Platform": {

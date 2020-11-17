@@ -314,12 +314,62 @@
 					},
 					"uid": 27,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": true,
+								"enabled": true
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
 						"x": 2180,
 						"y": 818,
 						"width": 250,
 						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 37,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 2864,
+						"y": 606,
+						"width": 53,
+						"height": 43,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -444,14 +494,15 @@
 					"type": "bones",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "walking",
+						"initial-animation": "idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 3,
 					"instanceVariables": {
-						"PunchImpulse": 8
+						"PunchImpulse": 8,
+						"HP": 3
 					},
 					"behaviors": {
 						"Platform": {
@@ -482,10 +533,10 @@
 					"world": {
 						"x": 67,
 						"y": 828,
-						"width": 59.81090908436489,
+						"width": 92.0167832067152,
 						"height": 140.04060420942656,
-						"originX": 0.6153846153846154,
-						"originY": 0.37037037037037035,
+						"originX": 0.5,
+						"originY": 0.4074074074074074,
 						"color": [
 							1,
 							1,

@@ -158,7 +158,8 @@
 	"layouts": {
 		"items": [
 			"Layout 1",
-			"intro"
+			"intro",
+			"Layout 2"
 		],
 		"subfolders": []
 	},

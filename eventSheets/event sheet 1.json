@@ -682,31 +682,135 @@
 						}
 					],
 					"sid": 229439193392238
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-start-of-layout",
-							"objectClass": "System",
-							"sid": 981755761439766
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "bones",
-							"sid": 305362868005112,
-							"parameters": {
-								"animation": "\"idle\"",
-								"from": "beginning"
-							}
-						}
-					],
-					"sid": 733654084478388
 				}
 			],
 			"sid": 486650141058451
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 416498926686268
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 327908279871918,
+					"parameters": {
+						"animation": "\"idle\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "pickupbox",
+					"sid": 150175655554363,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "bones",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 688162838263226
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-jumping",
+					"objectClass": "bones",
+					"sid": 232435787512261,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 205311668700139,
+					"parameters": {
+						"animation": "\"jump\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 339487276475324
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 389834948687897,
+					"parameters": {
+						"first-value": "fist.Count",
+						"comparison": 0,
+						"second-value": "1"
+					}
+				},
+				{
+					"id": "is-jumping",
+					"objectClass": "bones",
+					"sid": 811030098960819,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 337696819072328,
+					"parameters": {
+						"animation": "\"jumping one arm\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 238329641553002
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 709970820006742,
+					"parameters": {
+						"first-value": "fist.Count",
+						"comparison": 0,
+						"second-value": "2"
+					}
+				},
+				{
+					"id": "is-jumping",
+					"objectClass": "bones",
+					"sid": 127792597951351,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 579976998722220,
+					"parameters": {
+						"animation": "\"jumping no arms\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 257302977198032
 		}
 	],
 	"sid": 352648134632573

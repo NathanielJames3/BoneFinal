@@ -731,6 +731,135 @@
 				"repeatCount": 1,
 				"repeatTo": 0,
 				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 20,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.44,
+						"originalSource": "C:\\Users\\User\\Downloads\\New Piskel-1.png (1).png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2870659,
+						"collisionPoly": {
+							"points": [
+								0.4,
+								0.2,
+								0.65,
+								0.04,
+								0.9,
+								0.16,
+								0.75,
+								0.4,
+								0.7,
+								0.44,
+								0.65,
+								0.92,
+								0.4,
+								0.56,
+								0.2,
+								0.4
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 701335374841559,
+				"name": "jump",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 20,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.44,
+						"originalSource": "C:\\Users\\User\\Downloads\\New Piskel-1.png (1).png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2033595,
+						"collisionPoly": {
+							"points": [
+								0.4,
+								0.2,
+								0.65,
+								0.04,
+								0.9,
+								0.16,
+								0.75,
+								0.4,
+								0.7,
+								0.44,
+								0.65,
+								0.92,
+								0.4,
+								0.56,
+								0.2,
+								0.4
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 490475055286303,
+				"name": "jumping one arm",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 20,
+						"height": 25,
+						"originX": 0.65,
+						"originY": 0.4,
+						"originalSource": "C:\\Users\\User\\Downloads\\New Piskel-1.png (1).png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4990814,
+						"collisionPoly": {
+							"points": [
+								0.4,
+								0.2,
+								0.65,
+								0.04,
+								0.9,
+								0.16,
+								0.75,
+								0.4,
+								0.7,
+								0.44,
+								0.65,
+								0.92,
+								0.4,
+								0.56,
+								0.2,
+								0.4
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 276941059818135,
+				"name": "jumping no arms",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
 			}
 		],
 		"subfolders": []

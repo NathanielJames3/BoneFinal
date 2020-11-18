@@ -109,6 +109,14 @@
 			"author": "Scirra",
 			"version": "r218",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
 		}
 	],
 	"uniqueId": "670kbzeqm8c",
@@ -145,7 +153,10 @@
 			"fourthPaint",
 			"TextInput",
 			"Text",
-			"introText"
+			"introText",
+			"floatingPlatforms",
+			"button2",
+			"invisplat"
 		],
 		"subfolders": []
 	},

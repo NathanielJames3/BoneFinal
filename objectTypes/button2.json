@@ -1,0 +1,84 @@
+{
+	"name": "button2",
+	"plugin-id": "Sprite",
+	"sid": 505409679447008,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 52,
+						"height": 74,
+						"originX": 0.4807692307692308,
+						"originY": 0.5,
+						"originalSource": "E:\\BCBEAR\\Sprites\\unpressedButtonRed.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5657988,
+						"collisionPoly": {
+							"points": [
+								0.024038461538461536,
+								0.13682432432432434,
+								0.5108427601809962,
+								0.14020270270270266,
+								0.49038461538461553,
+								0.8557702702702713,
+								0.024038461538461564,
+								0.8614864864864856
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 161689619879215,
+				"name": "redButton",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 46,
+						"height": 74,
+						"originX": 0.41304347826086957,
+						"originY": 0.5,
+						"originalSource": "E:\\BCBEAR\\Sprites\\greenPressedBiutton.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2731333,
+						"collisionPoly": {
+							"points": [
+								0.021739130434782608,
+								0.13513513513513514,
+								0.5896739130434805,
+								0.13513513513513561,
+								0.5842391304347831,
+								0.8699324324324329,
+								0.024456521739130432,
+								0.8699324324324317
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 968484978592111,
+				"name": "greenButton",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

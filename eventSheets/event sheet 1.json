@@ -811,6 +811,48 @@
 				}
 			],
 			"sid": 257302977198032
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "fist",
+					"sid": 351255075944463,
+					"parameters": {
+						"object": "button2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "button2",
+					"sid": 726925582133398,
+					"parameters": {
+						"animation": "\"greenButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "invisplat",
+					"sid": 288116512844334,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "invisplat",
+					"sid": 163406978398665,
+					"behaviorType": "Solid",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 529271128523607
 		}
 	],
 	"sid": 352648134632573

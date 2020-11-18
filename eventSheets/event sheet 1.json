@@ -49,11 +49,11 @@
 			],
 			"actions": [
 				{
-					"id": "go-to-layout-by-name",
+					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 420440257452449,
+					"sid": 988761279967859,
 					"parameters": {
-						"layout": "\"intro\""
+						"layout": "Layout 2"
 					}
 				}
 			],
@@ -853,6 +853,30 @@
 				}
 			],
 			"sid": 529271128523607
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bones",
+					"sid": 184914871508317,
+					"parameters": {
+						"object": "door"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 508658826041483,
+					"parameters": {
+						"layout": "\"intro\""
+					}
+				}
+			],
+			"sid": 772169655349245
 		}
 	],
 	"sid": 352648134632573

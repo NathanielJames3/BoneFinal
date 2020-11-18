@@ -1,5 +1,55 @@
 {
 	"name": "introScene",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Painting1",
+					"sid": 129055479720422
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object-by-name",
+					"objectClass": "System",
+					"sid": 280909304752531,
+					"parameters": {
+						"object-name": "\"firstPaint\"",
+						"layer": "\"Game\"",
+						"x": "firstPaint.X",
+						"y": "firstPaint.Y"
+					}
+				}
+			],
+			"sid": 250661101775964,
+			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bones",
+					"sid": 889292760202608,
+					"parameters": {
+						"object": "door"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 934418732255574,
+					"parameters": {
+						"layout": "\"Layout 1\""
+					}
+				}
+			],
+			"sid": 296457140840064
+		}
+	],
 	"sid": 126448361520159
 }

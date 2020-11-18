@@ -63,6 +63,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -156,7 +164,13 @@
 			"introText",
 			"floatingPlatforms",
 			"button2",
-			"invisplat"
+			"invisplat",
+			"trigger1",
+			"trigger2",
+			"trigger3",
+			"trigger4",
+			"Painting1",
+			"door"
 		],
 		"subfolders": []
 	},
@@ -404,7 +418,7 @@
 		"enhancedAccelerationPrecision": true,
 		"cordovaiOSScheme": "app"
 	},
-	"viewportWidth": 854,
-	"viewportHeight": 480,
+	"viewportWidth": 1000,
+	"viewportHeight": 600,
 	"firstLayout": null
 }

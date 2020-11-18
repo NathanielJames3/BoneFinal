@@ -877,6 +877,90 @@
 				}
 			],
 			"sid": 772169655349245
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bones",
+					"sid": 905343858416656,
+					"parameters": {
+						"object": "meelk"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "fist",
+					"sid": 505694744570914
+				},
+				{
+					"id": "destroy",
+					"objectClass": "meelk",
+					"sid": 155108890231159
+				}
+			],
+			"sid": 933843327331731
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 358910073850745,
+					"parameters": {
+						"key": 77
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 935260911813898,
+					"parameters": {
+						"audio-file": "the first note of megalovania",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 609943660890661,
+					"parameters": {
+						"animation": "\"sans\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 527165026938374
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-released",
+					"objectClass": "Keyboard",
+					"sid": 468293608763262
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 723364435779805,
+					"parameters": {
+						"animation": "\"idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 922157204342756
 		}
 	],
 	"sid": 352648134632573

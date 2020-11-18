@@ -1,0 +1,345 @@
+{
+	"name": "meelk",
+	"plugin-id": "Sprite",
+	"sid": 804889278775531,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 11,
+						"height": 10,
+						"originX": 0.7272727272727273,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\Downloads\\meelk-1.png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3570768,
+						"collisionPoly": {
+							"points": [
+								0.6363636363636364,
+								0.4,
+								0.7272727272727273,
+								0.4,
+								0.8181818181818182,
+								0.3,
+								0.8181818181818182,
+								0.5,
+								0.8181818181818182,
+								0.6,
+								0.7272727272727273,
+								0.8,
+								0.36363636363636365,
+								0.8,
+								0.09090909090909091,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 11,
+						"height": 10,
+						"originX": 0.7272727272727273,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\Downloads\\meelk-2.png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3643999,
+						"collisionPoly": {
+							"points": [
+								0.5454545454545454,
+								0.3,
+								0.7272727272727273,
+								0.2,
+								0.8181818181818182,
+								0.3,
+								0.8181818181818182,
+								0.5,
+								0.8181818181818182,
+								0.6,
+								0.7272727272727273,
+								0.8,
+								0.36363636363636365,
+								0.8,
+								0.09090909090909091,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 11,
+						"height": 11,
+						"originX": 0.7272727272727273,
+						"originY": 0.5454545454545454,
+						"originalSource": "C:\\Users\\User\\Downloads\\meelk-3.png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1138992,
+						"collisionPoly": {
+							"points": [
+								0.5454545454545454,
+								0.36363636363636365,
+								0.7272727272727273,
+								0.18181818181818182,
+								0.8181818181818182,
+								0.36363636363636365,
+								0.8181818181818182,
+								0.5454545454545454,
+								0.8181818181818182,
+								0.6363636363636364,
+								0.7272727272727273,
+								0.8181818181818182,
+								0.36363636363636365,
+								0.8181818181818182,
+								0.09090909090909091,
+								0.5454545454545454
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 11,
+						"height": 14,
+						"originX": 0.7272727272727273,
+						"originY": 0.6428571428571429,
+						"originalSource": "C:\\Users\\User\\Downloads\\meelk-4.png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9306116,
+						"collisionPoly": {
+							"points": [
+								0.5454545454545454,
+								0.5,
+								0.7272727272727273,
+								0.07142857142857142,
+								0.8181818181818182,
+								0.5,
+								0.8181818181818182,
+								0.6428571428571429,
+								0.8181818181818182,
+								0.7142857142857143,
+								0.7272727272727273,
+								0.8571428571428571,
+								0.36363636363636365,
+								0.8571428571428571,
+								0.09090909090909091,
+								0.6428571428571429
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 13,
+						"height": 12,
+						"originX": 0.6153846153846154,
+						"originY": 0.5833333333333334,
+						"originalSource": "C:\\Users\\User\\Downloads\\meelk-5.png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8625565,
+						"collisionPoly": {
+							"points": [
+								0.5384615384615384,
+								0.5,
+								0.6153846153846154,
+								0.5,
+								0.8461538461538461,
+								0.25,
+								0.6923076923076923,
+								0.5833333333333334,
+								0.6923076923076923,
+								0.6666666666666666,
+								0.6153846153846154,
+								0.8333333333333334,
+								0.3076923076923077,
+								0.8333333333333334,
+								0.07692307692307693,
+								0.5833333333333334
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 13,
+						"height": 10,
+						"originX": 0.6153846153846154,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\Downloads\\meelk-6.png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7791305,
+						"collisionPoly": {
+							"points": [
+								0.6923076923076923,
+								0.6,
+								0.6153846153846154,
+								0.6,
+								0.6923076923076923,
+								0.3,
+								0.8461538461538461,
+								0.5,
+								0.6923076923076923,
+								0.6,
+								0.6153846153846154,
+								0.8,
+								0.3076923076923077,
+								0.8,
+								0.07692307692307693,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 13,
+						"height": 13,
+						"originX": 0.6153846153846154,
+						"originY": 0.5384615384615384,
+						"originalSource": "C:\\Users\\User\\Downloads\\meelk-7.png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5989156,
+						"collisionPoly": {
+							"points": [
+								0.15384615384615385,
+								0.07692307692307693,
+								0.6153846153846154,
+								0.7692307692307693,
+								0.6923076923076923,
+								0.38461538461538464,
+								0.6923076923076923,
+								0.5384615384615384,
+								0.8461538461538461,
+								0.7692307692307693,
+								0.6153846153846154,
+								0.7692307692307693,
+								0.3076923076923077,
+								0.7692307692307693,
+								0.07692307692307693,
+								0.5384615384615384
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 13,
+						"height": 14,
+						"originX": 0.7692307692307693,
+						"originY": 0.6428571428571429,
+						"originalSource": "C:\\Users\\User\\Downloads\\meelk-8.png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6973704,
+						"collisionPoly": {
+							"points": [
+								0.15384615384615385,
+								0.07142857142857142,
+								0.7692307692307693,
+								0.7857142857142857,
+								0.8461538461538461,
+								0.5,
+								0.8461538461538461,
+								0.6428571428571429,
+								0.8461538461538461,
+								0.7142857142857143,
+								0.7692307692307693,
+								0.8571428571428571,
+								0.46153846153846156,
+								0.8571428571428571,
+								0.23076923076923078,
+								0.6428571428571429
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 14,
+						"height": 10,
+						"originX": 0.7857142857142857,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\Downloads\\meelk-9.png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6868684,
+						"collisionPoly": {
+							"points": [
+								0.8571428571428571,
+								0.6,
+								0.7857142857142857,
+								0.6,
+								0.8571428571428571,
+								0.3,
+								0.8571428571428571,
+								0.5,
+								0.8571428571428571,
+								0.6,
+								0.7857142857142857,
+								0.8,
+								0.5,
+								0.8,
+								0.2857142857142857,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 14,
+						"height": 10,
+						"originX": 0.7857142857142857,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\Downloads\\meelk-10.png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2792761,
+						"collisionPoly": {
+							"points": [
+								0.7142857142857143,
+								0.4,
+								0.7857142857142857,
+								0.4,
+								0.8571428571428571,
+								0.3,
+								0.8571428571428571,
+								0.5,
+								0.8571428571428571,
+								0.6,
+								0.7857142857142857,
+								0.8,
+								0.5,
+								0.8,
+								0.2857142857142857,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 944918313038119,
+				"name": "meelk",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 30
+			}
+		],
+		"subfolders": []
+	}
+}

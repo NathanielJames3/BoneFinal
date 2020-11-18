@@ -170,7 +170,8 @@
 			"trigger3",
 			"trigger4",
 			"Painting1",
-			"door"
+			"door",
+			"meelk"
 		],
 		"subfolders": []
 	},
@@ -281,6 +282,11 @@
 					"name": "Sniff_1.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 587860807449735
+				},
+				{
+					"name": "the first note of megalovania.mp3",
+					"type": "audio/mpeg",
+					"sid": 978420487417566
 				}
 			],
 			"subfolders": []
@@ -420,5 +426,5 @@
 	},
 	"viewportWidth": 1000,
 	"viewportHeight": 600,
-	"firstLayout": null
+	"firstLayout": "intro"
 }

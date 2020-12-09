@@ -300,7 +300,6 @@
 							"id": "set-animation",
 							"objectClass": "bones",
 							"sid": 211682321021476,
-							"disabled": true,
 							"parameters": {
 								"animation": "\"idle\"",
 								"from": "beginning"
@@ -985,6 +984,402 @@
 				}
 			],
 			"sid": 486650141058451
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-falling",
+					"objectClass": "bones",
+					"sid": 473031965621470,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 247425989376434,
+					"parameters": {
+						"animation": "\"falling\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 452288938006193,
+			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 157390294167050,
+					"parameters": {
+						"first-value": "fist.Count",
+						"comparison": 0,
+						"second-value": "1"
+					}
+				},
+				{
+					"id": "is-falling",
+					"objectClass": "bones",
+					"sid": 470386125949432,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 874352547953932,
+					"parameters": {
+						"animation": "\"falling 1 arm\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 179401241833293,
+			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 350581110821827,
+					"parameters": {
+						"first-value": "fist.Count",
+						"comparison": 0,
+						"second-value": "2"
+					}
+				},
+				{
+					"id": "is-falling",
+					"objectClass": "bones",
+					"sid": 461000480893693,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 618592266546492,
+					"parameters": {
+						"animation": "\"falling no arms\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 435980146869467,
+			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-on-floor",
+					"objectClass": "bones",
+					"sid": 276384232932316,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 200903180223567,
+					"parameters": {
+						"animation": "\"idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 237708816868326,
+			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 807661572062413,
+					"parameters": {
+						"key": 37
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 528828804776662,
+					"parameters": {
+						"first-value": "fist.Count",
+						"comparison": 0,
+						"second-value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 710718556051125,
+					"parameters": {
+						"animation": "\"walking 1\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "bones",
+					"sid": 759571482523220,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 744037182126034
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 653058385782095,
+					"parameters": {
+						"key": 39
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 332031757191063,
+					"parameters": {
+						"first-value": "fist.Count",
+						"comparison": 0,
+						"second-value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 977460830628332,
+					"parameters": {
+						"animation": "\"walking 1\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "bones",
+					"sid": 835979179418090,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 401531625621919
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 357699019733633,
+					"parameters": {
+						"key": 37
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 506089321269057,
+					"parameters": {
+						"first-value": "fist.Count",
+						"comparison": 0,
+						"second-value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 153727117722989,
+					"parameters": {
+						"animation": "\"walking no arms\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "bones",
+					"sid": 426825091058754,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 754973345104970
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 853151530852730,
+					"parameters": {
+						"key": 39
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 934912224173820,
+					"parameters": {
+						"first-value": "fist.Count",
+						"comparison": 0,
+						"second-value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 985553195062605,
+					"parameters": {
+						"animation": "\"walking no arms\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "bones",
+					"sid": 823848610102807,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 827552208681901
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 694886982849673,
+					"parameters": {
+						"key": 37
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 454757383087675,
+					"parameters": {
+						"first-value": "fist.Count",
+						"comparison": 0,
+						"second-value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 342650279002526,
+					"parameters": {
+						"animation": "\"one arm\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 943703586145806,
+			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 376683834942096,
+					"parameters": {
+						"key": 38
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 636364393704239,
+					"parameters": {
+						"first-value": "fist.Count",
+						"comparison": 0,
+						"second-value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 141721982312147,
+					"parameters": {
+						"animation": "\"jumping one arm\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 826763801494119,
+			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 890636286302456,
+					"parameters": {
+						"key": 38
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 577201496966307,
+					"parameters": {
+						"first-value": "fist.Count",
+						"comparison": 0,
+						"second-value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bones",
+					"sid": 674343771850064,
+					"parameters": {
+						"animation": "\"jumping no arms\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 581237563694288,
+			"disabled": true
 		}
 	],
 	"sid": 352648134632573

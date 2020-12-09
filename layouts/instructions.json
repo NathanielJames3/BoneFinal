@@ -1,0 +1,113 @@
+{
+	"name": "Instructions",
+	"layers": [
+		{
+			"name": "Layer 0",
+			"overriden": 0,
+			"instances": [
+				{
+					"type": "Text2",
+					"properties": {
+						"text": "Press Space to fire your fists at enemies and buttons!\n\nPress Z to get your arms back!\n\nPress the arrow keys to move, and up to jump!\n",
+						"enable-bbcode": true,
+						"font": "Papyrus",
+						"size": 25,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							1,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 98,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 113,
+						"y": 83,
+						"width": 754,
+						"height": 279,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Button4",
+					"properties": {
+						"type": "button",
+						"text": "Start Game",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 99,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 383,
+						"y": 331,
+						"width": 182,
+						"height": 40,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				}
+			],
+			"sid": 121909638870908,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0,
+				0,
+				0,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		}
+	],
+	"sid": 883595455321594,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 2000,
+	"height": 1200,
+	"unboundedScrolling": false,
+	"eventSheet": "Instructions"
+}

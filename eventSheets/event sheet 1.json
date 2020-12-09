@@ -49,15 +49,39 @@
 			],
 			"actions": [
 				{
-					"id": "go-to-layout",
+					"id": "go-to-nextprevious-layout",
 					"objectClass": "System",
-					"sid": 988761279967859,
+					"sid": 622284178965533,
 					"parameters": {
-						"layout": "Layout 2"
+						"which": "next"
 					}
 				}
 			],
 			"sid": 808629250299448
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bones",
+					"sid": 170026624801153,
+					"parameters": {
+						"object": "TitleDoor"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 434958652508735,
+					"parameters": {
+						"layout": "Title Screen"
+					}
+				}
+			],
+			"sid": 245920625923270
 		},
 		{
 			"eventType": "block",
@@ -486,6 +510,282 @@
 						}
 					],
 					"sid": 674975018301161
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 519564895858938
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "bones",
+							"sid": 304236089250571,
+							"parameters": {
+								"animation": "\"idle\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "pin-to-object-properties",
+							"objectClass": "pickupbox",
+							"sid": 200037015957422,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "bones",
+								"x": true,
+								"y": true,
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						}
+					],
+					"sid": 430704511518890
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-jumping",
+							"objectClass": "bones",
+							"sid": 533387512162379,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "bones",
+							"sid": 276128136384506,
+							"parameters": {
+								"animation": "\"jump\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 263239095734785
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 173749354139691,
+							"parameters": {
+								"first-value": "fist.Count",
+								"comparison": 0,
+								"second-value": "1"
+							}
+						},
+						{
+							"id": "is-jumping",
+							"objectClass": "bones",
+							"sid": 880981879455976,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "bones",
+							"sid": 875237479146181,
+							"parameters": {
+								"animation": "\"jumping one arm\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 251313106673260
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 316096726852670,
+							"parameters": {
+								"first-value": "fist.Count",
+								"comparison": 0,
+								"second-value": "2"
+							}
+						},
+						{
+							"id": "is-jumping",
+							"objectClass": "bones",
+							"sid": 255610266097926,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "bones",
+							"sid": 956719174414814,
+							"parameters": {
+								"animation": "\"jumping no arms\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 296954478587939
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "fist",
+							"sid": 951320777969914,
+							"parameters": {
+								"object": "button2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "button2",
+							"sid": 818411568143057,
+							"parameters": {
+								"animation": "\"greenButton\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "invisplat",
+							"sid": 596722023804115,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "invisplat",
+							"sid": 659051848026660,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "enabled"
+							}
+						}
+					],
+					"sid": 898716502061330
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "bones",
+							"sid": 798318707886383,
+							"parameters": {
+								"object": "door"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout-by-name",
+							"objectClass": "System",
+							"sid": 300213727949269,
+							"parameters": {
+								"layout": "\"intro\""
+							}
+						}
+					],
+					"sid": 919465185594318
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "bones",
+							"sid": 176707970734211,
+							"parameters": {
+								"object": "meelk"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "fist",
+							"sid": 906705297716657
+						},
+						{
+							"id": "destroy",
+							"objectClass": "meelk",
+							"sid": 240648476852163
+						}
+					],
+					"sid": 524956652944291
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 340209967671306,
+							"parameters": {
+								"key": 77
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 996637392645978,
+							"parameters": {
+								"audio-file": "the first note of megalovania",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "bones",
+							"sid": 486697114054837,
+							"parameters": {
+								"animation": "\"sans\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 649373096932684
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-any-key-released",
+							"objectClass": "Keyboard",
+							"sid": 439191690880481
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "bones",
+							"sid": 272673911801683,
+							"parameters": {
+								"animation": "\"idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 940754647924675
 				}
 			],
 			"sid": 330807123869102
@@ -685,282 +985,6 @@
 				}
 			],
 			"sid": 486650141058451
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 416498926686268
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "bones",
-					"sid": 327908279871918,
-					"parameters": {
-						"animation": "\"idle\"",
-						"from": "beginning"
-					}
-				},
-				{
-					"id": "pin-to-object-properties",
-					"objectClass": "pickupbox",
-					"sid": 150175655554363,
-					"behaviorType": "Pin",
-					"parameters": {
-						"pin-to": "bones",
-						"x": true,
-						"y": true,
-						"angle": true,
-						"width-type": "no",
-						"height-type": "no",
-						"z": false
-					}
-				}
-			],
-			"sid": 688162838263226
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-jumping",
-					"objectClass": "bones",
-					"sid": 232435787512261,
-					"behaviorType": "Platform"
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "bones",
-					"sid": 205311668700139,
-					"parameters": {
-						"animation": "\"jump\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 339487276475324
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-two-values",
-					"objectClass": "System",
-					"sid": 389834948687897,
-					"parameters": {
-						"first-value": "fist.Count",
-						"comparison": 0,
-						"second-value": "1"
-					}
-				},
-				{
-					"id": "is-jumping",
-					"objectClass": "bones",
-					"sid": 811030098960819,
-					"behaviorType": "Platform"
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "bones",
-					"sid": 337696819072328,
-					"parameters": {
-						"animation": "\"jumping one arm\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 238329641553002
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-two-values",
-					"objectClass": "System",
-					"sid": 709970820006742,
-					"parameters": {
-						"first-value": "fist.Count",
-						"comparison": 0,
-						"second-value": "2"
-					}
-				},
-				{
-					"id": "is-jumping",
-					"objectClass": "bones",
-					"sid": 127792597951351,
-					"behaviorType": "Platform"
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "bones",
-					"sid": 579976998722220,
-					"parameters": {
-						"animation": "\"jumping no arms\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 257302977198032
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "fist",
-					"sid": 351255075944463,
-					"parameters": {
-						"object": "button2"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "button2",
-					"sid": 726925582133398,
-					"parameters": {
-						"animation": "\"greenButton\"",
-						"from": "beginning"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "invisplat",
-					"sid": 288116512844334,
-					"parameters": {
-						"visibility": "visible"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "invisplat",
-					"sid": 163406978398665,
-					"behaviorType": "Solid",
-					"parameters": {
-						"state": "enabled"
-					}
-				}
-			],
-			"sid": 529271128523607
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "bones",
-					"sid": 184914871508317,
-					"parameters": {
-						"object": "door"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout-by-name",
-					"objectClass": "System",
-					"sid": 508658826041483,
-					"parameters": {
-						"layout": "\"intro\""
-					}
-				}
-			],
-			"sid": 772169655349245
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "bones",
-					"sid": 905343858416656,
-					"parameters": {
-						"object": "meelk"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "fist",
-					"sid": 505694744570914
-				},
-				{
-					"id": "destroy",
-					"objectClass": "meelk",
-					"sid": 155108890231159
-				}
-			],
-			"sid": 933843327331731
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 358910073850745,
-					"parameters": {
-						"key": 77
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 935260911813898,
-					"parameters": {
-						"audio-file": "the first note of megalovania",
-						"loop": "not-looping",
-						"volume": "0",
-						"tag-optional": "\"\""
-					}
-				},
-				{
-					"id": "set-animation",
-					"objectClass": "bones",
-					"sid": 609943660890661,
-					"parameters": {
-						"animation": "\"sans\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 527165026938374
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-any-key-released",
-					"objectClass": "Keyboard",
-					"sid": 468293608763262
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "bones",
-					"sid": 723364435779805,
-					"parameters": {
-						"animation": "\"idle\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 922157204342756
 		}
 	],
 	"sid": 352648134632573

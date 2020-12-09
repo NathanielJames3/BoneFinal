@@ -1,0 +1,27 @@
+{
+	"name": "Instructions",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Button4",
+					"sid": 927122161753522
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 870114075147990,
+					"parameters": {
+						"layout": "intro"
+					}
+				}
+			],
+			"sid": 797250123113001
+		}
+	],
+	"sid": 821153026366931
+}

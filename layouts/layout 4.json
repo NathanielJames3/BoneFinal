@@ -75,7 +75,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 999,
-						"y": 2507,
+						"y": 2519,
 						"width": 2008,
 						"height": 5004,
 						"originX": 0.5,
@@ -126,7 +126,7 @@
 					"world": {
 						"x": 1001.5,
 						"y": 5002.5,
-						"width": 2001.2750806092854,
+						"width": 2001.2750806092856,
 						"height": 42.39588175297092,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -217,8 +217,8 @@
 						}
 					},
 					"world": {
-						"x": 281,
-						"y": 4819,
+						"x": 248,
+						"y": 4251,
 						"width": 94.62840988151116,
 						"height": 221.56191735009492,
 						"originX": 0.6153846153846154,
@@ -429,7 +429,9 @@
 						"live-preview": false
 					},
 					"uid": 110,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"button": true
+					},
 					"behaviors": {},
 					"world": {
 						"x": 723,
@@ -518,10 +520,74 @@
 						}
 					},
 					"world": {
-						"x": 1392.5,
-						"y": 4141,
+						"x": 1117,
+						"y": 4145,
 						"width": 125,
 						"height": 342,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "buttonhitbox",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 113,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 896,
+						"y": 4102,
+						"width": 115,
+						"height": 132,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "icespike",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 114,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -321,
+						"y": 2989,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

@@ -2,6 +2,16 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "buttonison",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 108033973981902
+		},
+		{
 			"eventType": "comment",
 			"text": "this is allowing the button to change color when hit with, will hold all controls for layout 1"
 		},
@@ -1576,9 +1586,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-overlapping-another-object",
+					"id": "on-collision-with-another-object",
 					"objectClass": "buttonholder",
-					"sid": 951645170997008,
+					"sid": 243645159961457,
 					"parameters": {
 						"object": "bones"
 					}
@@ -1586,19 +1596,28 @@
 			],
 			"actions": [
 				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 810684927231549,
+					"parameters": {
+						"variable": "buttonison",
+						"value": "true"
+					}
+				},
+				{
 					"id": "set-collisions-enabled",
 					"objectClass": "gatebuttonHolder",
-					"sid": 167040264608192,
+					"sid": 435597264665684,
 					"parameters": {
 						"collisions": "disabled"
 					}
 				},
 				{
-					"id": "set-opacity",
+					"id": "set-visible",
 					"objectClass": "gatebuttonHolder",
-					"sid": 406436192962243,
+					"sid": 802906725945203,
 					"parameters": {
-						"opacity": "0"
+						"visibility": "invisible"
 					}
 				}
 			],
@@ -1608,9 +1627,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-overlapping-another-object",
+					"id": "on-collision-with-another-object",
 					"objectClass": "buttonholder",
-					"sid": 779673071227971,
+					"sid": 832403053738572,
 					"parameters": {
 						"object": "fist"
 					}
@@ -1618,23 +1637,83 @@
 			],
 			"actions": [
 				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 233741641929238,
+					"parameters": {
+						"variable": "buttonison",
+						"value": "true"
+					}
+				},
+				{
 					"id": "set-collisions-enabled",
 					"objectClass": "gatebuttonHolder",
-					"sid": 754961578166100,
+					"sid": 666507758635066,
 					"parameters": {
 						"collisions": "disabled"
 					}
 				},
 				{
-					"id": "set-opacity",
+					"id": "set-visible",
 					"objectClass": "gatebuttonHolder",
-					"sid": 172426589977250,
+					"sid": 541050909440707,
 					"parameters": {
-						"opacity": "0"
+						"visibility": "invisible"
 					}
 				}
 			],
 			"sid": 670368846973417
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "buttonholder",
+					"sid": 307914943472064,
+					"parameters": {
+						"object": "bones"
+					},
+					"isInverted": true
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "buttonholder",
+					"sid": 263151984554815,
+					"parameters": {
+						"object": "fist"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 667664285110705,
+					"parameters": {
+						"variable": "buttonison",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "gatebuttonHolder",
+					"sid": 350034111689354,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "gatebuttonHolder",
+					"sid": 266965526838624,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 709523725583604
 		}
 	],
 	"sid": 352648134632573

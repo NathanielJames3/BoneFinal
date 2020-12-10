@@ -1,17 +1,16 @@
 {
-	"name": "buttonholder",
+	"name": "buttonhitbox",
 	"plugin-id": "Sprite",
-	"sid": 346343450817130,
+	"sid": 989194158119040,
 	"isGlobal": false,
-	"instanceVariables": [
+	"instanceVariables": [],
+	"behaviorTypes": [
 		{
-			"name": "button",
-			"type": "boolean",
-			"desc": "",
-			"sid": 409677702362942
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 164523591523711
 		}
 	],
-	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -25,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4246641,
+						"imageSpriteId": 800425,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 991587900357348,
+				"sid": 753439812989979,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

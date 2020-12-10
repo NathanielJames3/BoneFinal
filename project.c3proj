@@ -182,7 +182,9 @@
 			"breakableplatform",
 			"Sprite3",
 			"buttonholder",
-			"gatebuttonHolder"
+			"gatebuttonHolder",
+			"buttonhitbox",
+			"icespike"
 		],
 		"subfolders": []
 	},

@@ -1515,6 +1515,126 @@
 			],
 			"sid": 581237563694288,
 			"disabled": true
+		},
+		{
+			"eventType": "comment",
+			"text": "platform codes"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bones",
+					"sid": 174476240327558,
+					"parameters": {
+						"object": "breakableplatform"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 498246627657416,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "breakableplatform",
+					"sid": 954625298764575
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 173026700198372,
+					"parameters": {
+						"seconds": "5"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 400184466716404,
+					"parameters": {
+						"object-to-create": "breakableplatform",
+						"layer": "0",
+						"x": "0",
+						"y": "0"
+					}
+				}
+			],
+			"sid": 446939073633054
+		},
+		{
+			"eventType": "comment",
+			"text": "button holder codes"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "buttonholder",
+					"sid": 951645170997008,
+					"parameters": {
+						"object": "bones"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "gatebuttonHolder",
+					"sid": 167040264608192,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "gatebuttonHolder",
+					"sid": 406436192962243,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 384104519589434
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "buttonholder",
+					"sid": 779673071227971,
+					"parameters": {
+						"object": "fist"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "gatebuttonHolder",
+					"sid": 754961578166100,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "gatebuttonHolder",
+					"sid": 172426589977250,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 670368846973417
 		}
 	],
 	"sid": 352648134632573

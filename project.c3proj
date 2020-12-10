@@ -178,7 +178,11 @@
 			"Button4",
 			"TitleDoor",
 			"pointA",
-			"pointB"
+			"pointB",
+			"breakableplatform",
+			"Sprite3",
+			"buttonholder",
+			"gatebuttonHolder"
 		],
 		"subfolders": []
 	},
@@ -195,7 +199,8 @@
 			"Layout 1",
 			"Layout 2",
 			"Layout 3",
-			"Instructions"
+			"Instructions",
+			"Layout 4"
 		],
 		"subfolders": []
 	},

@@ -3,19 +3,21 @@
 	"plugin-id": "Sprite",
 	"sid": 142335357521613,
 	"isGlobal": false,
-	"instanceVariables": [],
-	"behaviorTypes": [
+	"instanceVariables": [
 		{
-			"behaviorId": "Platform",
-			"name": "Platform",
-			"sid": 746405531127675
+			"name": "movetoA",
+			"type": "boolean",
+			"desc": "",
+			"sid": 472440775743570
 		},
 		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 691286199934863
+			"name": "movetoB",
+			"type": "boolean",
+			"desc": "",
+			"sid": 164913213241452
 		}
 	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [

@@ -802,7 +802,8 @@
 						{
 							"id": "every-tick",
 							"objectClass": "System",
-							"sid": 842304648339220
+							"sid": 842304648339220,
+							"disabled": true
 						}
 					],
 					"actions": [
@@ -816,7 +817,8 @@
 							}
 						}
 					],
-					"sid": 857617077983255
+					"sid": 857617077983255,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -842,7 +844,140 @@
 							}
 						}
 					],
-					"sid": 861744790957650
+					"sid": 861744790957650,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "enemyPlaceHolder",
+							"sid": 325386996316499,
+							"parameters": {
+								"instance-variable": "movetoA"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-forward",
+							"objectClass": "enemyPlaceHolder",
+							"sid": 579839963306048,
+							"parameters": {
+								"distance": "-2"
+							}
+						}
+					],
+					"sid": 154502884526937
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "enemyPlaceHolder",
+							"sid": 123086163853379,
+							"parameters": {
+								"instance-variable": "movetoB"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-forward",
+							"objectClass": "enemyPlaceHolder",
+							"sid": 843319110015854,
+							"parameters": {
+								"distance": "2"
+							}
+						}
+					],
+					"sid": 427731948626486
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "enemyPlaceHolder",
+							"sid": 350323850707045,
+							"parameters": {
+								"object": "pointA"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "enemyPlaceHolder",
+							"sid": 938362858673300,
+							"parameters": {
+								"instance-variable": "movetoB",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "enemyPlaceHolder",
+							"sid": 606030791038501,
+							"parameters": {
+								"instance-variable": "movetoA",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "enemyPlaceHolder",
+							"sid": 484421716139386,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 973720566568006
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "enemyPlaceHolder",
+							"sid": 450859386488819,
+							"parameters": {
+								"object": "pointB"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "enemyPlaceHolder",
+							"sid": 561898518327832,
+							"parameters": {
+								"instance-variable": "movetoB",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "enemyPlaceHolder",
+							"sid": 161274519482997,
+							"parameters": {
+								"instance-variable": "movetoA",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "enemyPlaceHolder",
+							"sid": 933254626571879,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 747218943072630
 				},
 				{
 					"eventType": "block",

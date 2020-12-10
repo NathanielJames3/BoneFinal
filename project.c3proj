@@ -176,7 +176,9 @@
 			"Button",
 			"Button3",
 			"Button4",
-			"TitleDoor"
+			"TitleDoor",
+			"pointA",
+			"pointB"
 		],
 		"subfolders": []
 	},

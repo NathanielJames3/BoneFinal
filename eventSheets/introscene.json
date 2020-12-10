@@ -49,6 +49,31 @@
 				}
 			],
 			"sid": 296457140840064
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "bones",
+					"sid": 738054209911658,
+					"parameters": {
+						"object": "trigger1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-canvas-size",
+					"objectClass": "System",
+					"sid": 175557621033612,
+					"parameters": {
+						"width": "1000",
+						"height": "1000"
+					}
+				}
+			],
+			"sid": 571437551116696
 		}
 	],
 	"sid": 126448361520159

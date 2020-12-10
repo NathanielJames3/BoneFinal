@@ -193,9 +193,7 @@
 			"Layout 1",
 			"Layout 2",
 			"Layout 3",
-			"Instructions",
-			"Layout 4",
-			"Layout 5 Boss"
+			"Instructions"
 		],
 		"subfolders": []
 	},
@@ -437,6 +435,6 @@
 		"cordovaiOSScheme": "app"
 	},
 	"viewportWidth": 1000,
-	"viewportHeight": 600,
-	"firstLayout": "intro"
+	"viewportHeight": 700,
+	"firstLayout": "Instructions"
 }

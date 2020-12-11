@@ -125,6 +125,22 @@
 			"author": "Scirra",
 			"version": "r225",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r225",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Turret",
+			"name": "Turret",
+			"author": "Scirra",
+			"version": "r225",
+			"bundled": false
 		}
 	],
 	"uniqueId": "670kbzeqm8c",
@@ -184,7 +200,10 @@
 			"buttonholder",
 			"gatebuttonHolder",
 			"buttonhitbox",
-			"icespike"
+			"icespike",
+			"spiketurret",
+			"slipperyplatforms",
+			"movingslippy"
 		],
 		"subfolders": []
 	},

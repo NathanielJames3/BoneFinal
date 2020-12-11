@@ -1,14 +1,19 @@
 {
-	"name": "icespike",
+	"name": "movingslippy",
 	"plugin-id": "Sprite",
-	"sid": 959357317625888,
+	"sid": 554056520594517,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Bullet",
-			"name": "Bullet",
-			"sid": 710303485165983
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 533841733412636
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 824069884909944
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +29,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7894737,
+						"imageSpriteId": 622616,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 934912412576530,
+				"sid": 950270698086647,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

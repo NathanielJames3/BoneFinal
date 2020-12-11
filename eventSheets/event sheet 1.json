@@ -1714,6 +1714,175 @@
 				}
 			],
 			"sid": 709523725583604
+		},
+		{
+			"eventType": "comment",
+			"text": "falling spike codes"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 307848272192944
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "spiketurret",
+					"sid": 916541208400914,
+					"parameters": {
+						"object": "icespike",
+						"layer": "2",
+						"image-point": "0"
+					}
+				}
+			],
+			"sid": 215178993408901
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 722592990470223
+				}
+			],
+			"actions": [
+				{
+					"id": "acquire-target",
+					"objectClass": "spiketurret",
+					"sid": 888137945284826,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "bones"
+					}
+				}
+			],
+			"sid": 919041900722528
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "spiketurret",
+					"sid": 859248480125420,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "spiketurret",
+					"sid": 965365279913047,
+					"parameters": {
+						"object": "icespike",
+						"layer": "2",
+						"image-point": "0"
+					}
+				}
+			],
+			"sid": 126832649132218
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bones",
+					"sid": 902162161665614,
+					"parameters": {
+						"object": "slipperyplatforms"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-deceleration",
+					"objectClass": "bones",
+					"sid": 714364671099661,
+					"behaviorType": "Platform",
+					"parameters": {
+						"deceleration": "-1"
+					}
+				}
+			],
+			"sid": 329860619297714
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bones",
+					"sid": 597296792723945,
+					"parameters": {
+						"object": "platform"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-deceleration",
+					"objectClass": "bones",
+					"sid": 763853275026419,
+					"behaviorType": "Platform",
+					"parameters": {
+						"deceleration": "1500"
+					}
+				}
+			],
+			"sid": 602734714473484
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bones",
+					"sid": 439094135178584,
+					"parameters": {
+						"object": "movingslippy"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-deceleration",
+					"objectClass": "bones",
+					"sid": 417347487787142,
+					"behaviorType": "Platform",
+					"parameters": {
+						"deceleration": "-1"
+					}
+				}
+			],
+			"sid": 232568684163687
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bones",
+					"sid": 788569418470985,
+					"parameters": {
+						"object": "icespike"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 997848822387618
+				}
+			],
+			"sid": 206911127620329
 		}
 	],
 	"sid": 352648134632573

@@ -1,14 +1,14 @@
 {
-	"name": "icespike",
+	"name": "spiketurret",
 	"plugin-id": "Sprite",
-	"sid": 959357317625888,
+	"sid": 997213216643035,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Bullet",
-			"name": "Bullet",
-			"sid": 710303485165983
+			"behaviorId": "Turret",
+			"name": "Turret",
+			"sid": 101701723792055
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7894737,
+						"imageSpriteId": 6279907,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 934912412576530,
+				"sid": 385779659048408,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

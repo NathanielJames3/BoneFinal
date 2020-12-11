@@ -1,14 +1,14 @@
 {
-	"name": "icespike",
+	"name": "slipperyplatforms",
 	"plugin-id": "Sprite",
-	"sid": 959357317625888,
+	"sid": 253712113315345,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Bullet",
-			"name": "Bullet",
-			"sid": 710303485165983
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 917080919776648
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7894737,
+						"imageSpriteId": 345691,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 934912412576530,
+				"sid": 921802455748931,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

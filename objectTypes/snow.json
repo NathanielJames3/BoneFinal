@@ -7,14 +7,14 @@
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"image": {
-		"width": 235,
-		"height": 352,
+		"width": 387,
+		"height": 260,
 		"originX": 0.5,
 		"originY": 0.5,
-		"originalSource": "E:\\BCBEAR\\Sprites\\snow.jpg",
+		"originalSource": "E:\\BCBEAR\\Sprites\\idea2.JPG",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 8369958,
+		"imageSpriteId": 4505453,
 		"useCollisionPoly": true
 	}
 }

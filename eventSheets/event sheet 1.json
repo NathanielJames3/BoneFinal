@@ -873,9 +873,9 @@
 						{
 							"id": "move-forward",
 							"objectClass": "enemyPlaceHolder",
-							"sid": 579839963306048,
+							"sid": 778046147695310,
 							"parameters": {
-								"distance": "-2"
+								"distance": "-1"
 							}
 						}
 					],
@@ -897,9 +897,9 @@
 						{
 							"id": "move-forward",
 							"objectClass": "enemyPlaceHolder",
-							"sid": 843319110015854,
+							"sid": 337489445518055,
 							"parameters": {
-								"distance": "2"
+								"distance": "1"
 							}
 						}
 					],

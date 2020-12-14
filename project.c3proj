@@ -203,7 +203,10 @@
 			"icespike",
 			"spiketurret",
 			"slipperyplatforms",
-			"movingslippy"
+			"movingslippy",
+			"tree",
+			"bg",
+			"museumHouse"
 		],
 		"subfolders": []
 	},
@@ -463,6 +466,6 @@
 		"cordovaiOSScheme": "app"
 	},
 	"viewportWidth": 1000,
-	"viewportHeight": 700,
+	"viewportHeight": 1000,
 	"firstLayout": "Instructions"
 }

@@ -1,7 +1,7 @@
 {
-	"name": "endDoorBlock",
+	"name": "museumHouse",
 	"plugin-id": "Sprite",
-	"sid": 474679552852059,
+	"sid": 633073949315820,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,31 +11,31 @@
 			{
 				"frames": [
 					{
-						"width": 128,
-						"height": 187,
-						"originX": 0.46875,
-						"originY": 0.32620320855614976,
+						"width": 201,
+						"height": 249,
+						"originX": 0.6268656716417911,
+						"originY": 0.4939759036144578,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3990185,
+						"imageSpriteId": 5905960,
 						"collisionPoly": {
 							"points": [
-								0,
-								0,
-								1,
+								0.004975124378109453,
 								0,
 								1,
-								0.9946524064171123,
 								0,
-								0.9946524064171123
+								1,
+								0.9959839357429718,
+								0.004975124378109453,
+								0.9959839357429718
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 908379777119954,
+				"sid": 800142914047130,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

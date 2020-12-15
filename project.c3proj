@@ -71,6 +71,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
+			"author": "Scirra",
+			"version": "r225",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -206,7 +214,8 @@
 			"movingslippy",
 			"tree",
 			"bg",
-			"museumHouse"
+			"museumHouse",
+			"Tilemap"
 		],
 		"subfolders": []
 	},

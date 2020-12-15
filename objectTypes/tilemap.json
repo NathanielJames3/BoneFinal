@@ -1,0 +1,21 @@
+{
+	"name": "Tilemap",
+	"plugin-id": "Tilemap",
+	"sid": 891079474669982,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 818,
+		"height": 290,
+		"originX": 0.5525672371638142,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\tori0\\Downloads\\Pixel Art Environment Tileset\\Pixel Art Environment Tileset\\Tundra-Edit.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 4800219,
+		"useCollisionPoly": true
+	},
+	"tile-collision-polys": {}
+}

@@ -706,63 +706,6 @@
 					}
 				},
 				{
-					"type": "bones",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 3,
-					"instanceVariables": {
-						"PunchImpulse": 8,
-						"HP": 3
-					},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 330,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": true,
-								"jump-sustain": 0,
-								"default-controls": true,
-								"enabled": true
-							}
-						},
-						"ScrollTo": {
-							"properties": {
-								"enabled": true
-							}
-						},
-						"BoundToLayout": {
-							"properties": {
-								"bound-by": "edge"
-							}
-						}
-					},
-					"world": {
-						"x": 143,
-						"y": 820,
-						"width": 94.0167832067152,
-						"height": 140.04060420942656,
-						"originX": 0.5,
-						"originY": 0.4074074074074074,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "fist",
 					"properties": {
 						"initially-visible": true,
@@ -854,7 +797,7 @@
 					},
 					"world": {
 						"x": 220.5,
-						"y": 945,
+						"y": 950,
 						"width": 451.2750806092854,
 						"height": 23.395881752970922,
 						"originX": 0.5,
@@ -1094,7 +1037,7 @@
 					},
 					"world": {
 						"x": 367.6036036036036,
-						"y": 619.3579545454546,
+						"y": 623.3579545454546,
 						"width": 202.59834234234236,
 						"height": 501.20710831721476,
 						"originX": 0.34328358208955223,
@@ -1166,6 +1109,111 @@
 						"height": 666,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Tilemap",
+					"properties": {
+						"initially-visible": true,
+						"tile-width": 48,
+						"tile-height": 48,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
+					},
+					"uid": 40,
+					"instanceVariables": {},
+					"behaviors": {},
+					"ownData": {
+						"tilemapData": {
+							"width": 63,
+							"height": 21,
+							"max-width": 96,
+							"max-height": 35,
+							"data": "17x0,11,28,35,33x0,6,36,34x0,36,34x0,36,34x0,36,34x0,36,32x0,12,29,36,34x0,36,34x0,36,34x0,39,237x0,46,72,34x0,53,77,32x0,5,53,91,32x0,4,53,34x0,53,34x0,53,89,33x0,53,34x0,53,77,33x0,53,34x0,53,33x0,4,53,90,32x0,6,53,34x0,53,34x0,53,77,31x0,11,28,53,77,33x0,53,34x0,53,34x0,53,33x0,4,53,89,32x0,5,73,91,212x0,12,29,38,55,33x0,36,53,32x0,45,36,53,33x0,36,53,33x0,36,53,32x0,4,36,53,32x0,5,36,53,33x0,36,53,33x0,36,53,32x0,44,36,53,33x0,36,53,33x0,36,53,33x0,36,53,31x0,11,28,36,53,33x0,36,53,33x0,36,53,33x0,36,53,33x0,36,53,33x0,36,53,33x0,36,53,32x0,4,36,53,31x0,62,79,39,56,1169x0"
+						},
+						"tile-width": 48,
+						"tile-height": 48,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0
+					},
+					"world": {
+						"x": 0.9090909090878085,
+						"y": 25.545454545455755,
+						"width": 3065,
+						"height": 1033,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "bones",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 3,
+					"instanceVariables": {
+						"PunchImpulse": 8,
+						"HP": 3
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": true,
+								"jump-sustain": 0,
+								"default-controls": true,
+								"enabled": true
+							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						},
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						}
+					},
+					"world": {
+						"x": 143,
+						"y": 820,
+						"width": 94.0167832067152,
+						"height": 140.04060420942656,
+						"originX": 0.5,
+						"originY": 0.4074074074074074,
 						"color": [
 							1,
 							1,

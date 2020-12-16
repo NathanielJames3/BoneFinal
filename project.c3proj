@@ -215,9 +215,7 @@
 			"tree",
 			"bg",
 			"museumHouse",
-			"Tilemap",
-			"DEATH2",
-			"bg2"
+			"Tilemap"
 		],
 		"subfolders": []
 	},
@@ -232,10 +230,10 @@
 			"Title Screen",
 			"intro",
 			"Layout 1",
-			"bossLvl",
 			"Layout 2",
+			"Layout 3",
 			"Instructions",
-			"Layout 3"
+			"Layout 4"
 		],
 		"subfolders": []
 	},

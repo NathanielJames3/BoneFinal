@@ -215,7 +215,8 @@
 			"tree",
 			"bg",
 			"museumHouse",
-			"Tilemap"
+			"Tilemap",
+			"oppositeSlippy"
 		],
 		"subfolders": []
 	},

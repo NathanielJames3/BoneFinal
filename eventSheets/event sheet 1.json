@@ -1966,6 +1966,31 @@
 				}
 			],
 			"sid": 206911127620329
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bones",
+					"sid": 541968227096410,
+					"parameters": {
+						"object": "oppositeSlippy"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-deceleration",
+					"objectClass": "bones",
+					"sid": 978168875761745,
+					"behaviorType": "Platform",
+					"parameters": {
+						"deceleration": "-1"
+					}
+				}
+			],
+			"sid": 264245706301592
 		}
 	],
 	"sid": 352648134632573

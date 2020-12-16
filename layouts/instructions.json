@@ -17,8 +17,8 @@
 						"italic": false,
 						"color": [
 							1,
-							0,
-							0,
+							1,
+							1,
 							1
 						],
 						"horizontal-alignment": "left",
@@ -64,7 +64,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 383,
-						"y": 371,
+						"y": 380,
 						"width": 182,
 						"height": 40,
 						"originX": 0,
@@ -88,9 +88,9 @@
 				1
 			],
 			"backgroundColor": [
-				0,
-				0,
-				0,
+				0.36470588235294116,
+				0.5411764705882353,
+				0.6941176470588235,
 				1
 			],
 			"isTransparent": false,

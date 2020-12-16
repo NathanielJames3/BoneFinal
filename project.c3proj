@@ -244,6 +244,7 @@
 			"Layout 3",
 			"Layout 4",
 			"boss level",
+			"Winner",
 			"Instructions"
 		],
 		"subfolders": []
@@ -253,7 +254,8 @@
 			"Event sheet 1",
 			"introScene",
 			"Title",
-			"Instructions"
+			"Instructions",
+			"Win"
 		],
 		"subfolders": []
 	},

@@ -1,0 +1,27 @@
+{
+	"name": "Win",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 178839744389800
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 442318262387986,
+					"parameters": {
+						"layout": "Title Screen"
+					}
+				}
+			],
+			"sid": 971296353011348
+		}
+	],
+	"sid": 277261167862523
+}

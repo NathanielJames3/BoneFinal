@@ -569,10 +569,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1163,
-						"y": 413,
-						"width": 54,
-						"height": 120,
+						"x": 1140,
+						"y": -197,
+						"width": 8,
+						"height": 78,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

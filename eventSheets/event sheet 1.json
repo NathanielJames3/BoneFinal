@@ -819,16 +819,15 @@
 					"actions": [
 						{
 							"id": "move-at-angle",
-							"objectClass": "enemyPlaceHolder",
-							"sid": 382835781850676,
+							"objectClass": "enemyPlaceHolder2",
+							"sid": 472938750779826,
 							"parameters": {
 								"angle": "180",
 								"distance": "5"
 							}
 						}
 					],
-					"sid": 857617077983255,
-					"disabled": true
+					"sid": 857617077983255
 				},
 				{
 					"eventType": "block",
@@ -854,8 +853,33 @@
 							}
 						}
 					],
-					"sid": 861744790957650,
-					"disabled": true
+					"sid": 861744790957650
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 350226895471937,
+							"parameters": {
+								"interval-seconds": "6"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Sprite4",
+							"sid": 628164901046575,
+							"parameters": {
+								"object": "enemyPlaceHolder2",
+								"layer": "\"Game\"",
+								"image-point": "0"
+							}
+						}
+					],
+					"sid": 814981653088131
 				},
 				{
 					"eventType": "block",
@@ -994,6 +1018,24 @@
 					"conditions": [
 						{
 							"id": "is-outside-layout",
+							"objectClass": "enemyPlaceHolder2",
+							"sid": 942790810063839
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "enemyPlaceHolder2",
+							"sid": 466019575840640
+						}
+					],
+					"sid": 606810677867564
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-outside-layout",
 							"objectClass": "enemyPlaceHolder",
 							"sid": 947758725447485
 						}
@@ -1047,6 +1089,47 @@
 						}
 					],
 					"sid": 309954191671875
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "enemyPlaceHolder2",
+							"sid": 749982988501356,
+							"parameters": {
+								"object": "bones"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "bones",
+							"sid": 194006032475950,
+							"parameters": {
+								"instance-variable": "HP",
+								"value": "1"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "enemyPlaceHolder2",
+							"sid": 568131655925314
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 874526802288173,
+							"parameters": {
+								"audio-file": "Punch_4",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 490990890870901
 				},
 				{
 					"eventType": "comment",

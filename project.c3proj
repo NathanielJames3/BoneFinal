@@ -216,7 +216,10 @@
 			"bg",
 			"museumHouse",
 			"Tilemap",
-			"oppositeSlippy"
+			"oppositeSlippy",
+			"enemyPlaceHolder2",
+			"Sprite4",
+			"health"
 		],
 		"subfolders": []
 	},
@@ -233,8 +236,8 @@
 			"Layout 1",
 			"Layout 2",
 			"Layout 3",
-			"Instructions",
-			"Layout 4"
+			"Layout 4",
+			"Instructions"
 		],
 		"subfolders": []
 	},

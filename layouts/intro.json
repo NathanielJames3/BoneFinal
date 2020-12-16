@@ -499,7 +499,7 @@
 					}
 				},
 				{
-					"type": "door",
+					"type": "endDoorBlock",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -511,12 +511,12 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1721,
-						"y": 655,
-						"width": 124,
-						"height": 336,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 1625,
+						"y": 566,
+						"width": 156.12244408557038,
+						"height": 232.81561065750688,
+						"originX": 0.46875,
+						"originY": 0.32620320855614976,
 						"color": [
 							1,
 							1,

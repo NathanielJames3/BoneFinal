@@ -702,11 +702,11 @@
 					],
 					"actions": [
 						{
-							"id": "go-to-layout-by-name",
+							"id": "go-to-nextprevious-layout",
 							"objectClass": "System",
-							"sid": 300213727949269,
+							"sid": 442753288442435,
 							"parameters": {
-								"layout": "\"intro\""
+								"which": "next"
 							}
 						}
 					],
@@ -1753,6 +1753,252 @@
 				{
 					"id": "is-overlapping-another-object",
 					"objectClass": "buttonholder",
+					"sid": 278046710102209,
+					"parameters": {
+						"object": "iceBlock1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 500502053178416,
+					"parameters": {
+						"variable": "buttonison",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "gatebuttonHolder",
+					"sid": 331387492287690,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "gatebuttonHolder",
+					"sid": 813046783270768,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 943608544959939
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "buttonholder",
+					"sid": 151751052217488,
+					"parameters": {
+						"object": "iceBlock1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 427270800248218,
+					"parameters": {
+						"variable": "buttonison",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "gatebuttonHolder",
+					"sid": 659921462609129,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "gatebuttonHolder",
+					"sid": 521704667421932,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 620123306221579
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "buttonholder",
+					"sid": 139358190940416,
+					"parameters": {
+						"object": "smalliceBlocks1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 571137443969619,
+					"parameters": {
+						"variable": "buttonison",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "gatebuttonHolder",
+					"sid": 890971003891165,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "gatebuttonHolder",
+					"sid": 383292361293024,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 253501472001792
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "buttonholder",
+					"sid": 103308155556949,
+					"parameters": {
+						"object": "smalliceBlocks1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 266349152488711,
+					"parameters": {
+						"variable": "buttonison",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "gatebuttonHolder",
+					"sid": 779229452928075,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "gatebuttonHolder",
+					"sid": 363459320288878,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 431720824560682
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "buttonholder",
+					"sid": 627322197547874,
+					"parameters": {
+						"object": "smalliceBlocks2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 326940159892583,
+					"parameters": {
+						"variable": "buttonison",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "gatebuttonHolder",
+					"sid": 472106916388596,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "gatebuttonHolder",
+					"sid": 383272231114117,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 115231671594983
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "buttonholder",
+					"sid": 133157985177456,
+					"parameters": {
+						"object": "smalliceBlocks2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 663607511912108,
+					"parameters": {
+						"variable": "buttonison",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "gatebuttonHolder",
+					"sid": 682413800240143,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "gatebuttonHolder",
+					"sid": 761470640605407,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 967368485828133
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "buttonholder",
 					"sid": 307914943472064,
 					"parameters": {
 						"object": "bones"
@@ -1991,6 +2237,34 @@
 				}
 			],
 			"sid": 264245706301592
+		},
+		{
+			"eventType": "comment",
+			"text": "this finishes the game once you hit shrek"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "fist",
+					"sid": 697288779750892,
+					"parameters": {
+						"object": "Shrek"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 569484019582279,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 184908188464232
 		}
 	],
 	"sid": 352648134632573

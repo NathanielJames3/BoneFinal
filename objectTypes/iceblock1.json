@@ -1,0 +1,48 @@
+{
+	"name": "iceBlock1",
+	"plugin-id": "Sprite",
+	"sid": 692537420894670,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Physics",
+			"name": "Physics",
+			"sid": 300346157995105
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 806494910889813
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7314023,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 233541065135357,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

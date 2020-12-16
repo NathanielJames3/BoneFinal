@@ -219,7 +219,14 @@
 			"oppositeSlippy",
 			"enemyPlaceHolder2",
 			"Sprite4",
-			"health"
+			"health",
+			"bg2",
+			"DEATH2",
+			"iceBlock1",
+			"smalliceBlocks2",
+			"smalliceBlocks1",
+			"Shrek",
+			"floatingPlatforms2"
 		],
 		"subfolders": []
 	},
@@ -234,9 +241,9 @@
 			"Title Screen",
 			"intro",
 			"Layout 1",
-			"Layout 2",
 			"Layout 3",
 			"Layout 4",
+			"boss level",
 			"Instructions"
 		],
 		"subfolders": []
@@ -483,7 +490,7 @@
 		"enhancedAccelerationPrecision": true,
 		"cordovaiOSScheme": "app"
 	},
-	"viewportWidth": 1000,
-	"viewportHeight": 1000,
+	"viewportWidth": 2000,
+	"viewportHeight": 2000,
 	"firstLayout": "Instructions"
 }

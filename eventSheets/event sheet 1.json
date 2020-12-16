@@ -475,11 +475,11 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 189925025568874,
+							"sid": 233990640039248,
 							"parameters": {
 								"audio-file": "Jump_1",
 								"loop": "not-looping",
-								"volume": "-12",
+								"volume": "-16",
 								"tag-optional": "\"\""
 							}
 						}
@@ -1079,11 +1079,11 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 280391296973926,
+							"sid": 136728863548298,
 							"parameters": {
 								"audio-file": "Punch_4",
 								"loop": "not-looping",
-								"volume": "0",
+								"volume": "-10",
 								"tag-optional": "\"\""
 							}
 						}
@@ -1120,11 +1120,11 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 874526802288173,
+							"sid": 679666127872777,
 							"parameters": {
 								"audio-file": "Punch_4",
 								"loop": "not-looping",
-								"volume": "0",
+								"volume": "-10",
 								"tag-optional": "\"\""
 							}
 						}

@@ -42,6 +42,30 @@
 				}
 			],
 			"sid": 845115214382900
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 576495213708213
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 840066881320481,
+					"parameters": {
+						"audio-file": "Fight in the Dungeon",
+						"loop": "looping",
+						"volume": "-23",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 448029829020311
 		}
 	],
 	"sid": 589030229885560

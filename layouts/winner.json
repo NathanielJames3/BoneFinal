@@ -11,7 +11,7 @@
 						"text": "You beat your eternal rival, and got your jaw back!\n\nYou sure did crack them skulls!\n\nPress Any Key to return",
 						"enable-bbcode": true,
 						"font": "Verdana",
-						"size": 41,
+						"size": 74,
 						"line-height": 0,
 						"bold": true,
 						"italic": false,
@@ -31,10 +31,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 113,
-						"y": 83,
-						"width": 844,
-						"height": 370,
+						"x": 80,
+						"y": 74,
+						"width": 1841,
+						"height": 1041,
 						"originX": 0,
 						"originY": 0,
 						"color": [

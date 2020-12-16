@@ -11,7 +11,7 @@
 						"text": "Press Space to fire your fists at enemies and buttons!\n\nPress Z to get your arms back!\n\nPress the arrow keys to move, and up to jump!\n\nDouble tap up to double jump!\n",
 						"enable-bbcode": true,
 						"font": "Papyrus",
-						"size": 25,
+						"size": 67,
 						"line-height": 0,
 						"bold": true,
 						"italic": false,
@@ -33,8 +33,8 @@
 					"world": {
 						"x": 113,
 						"y": 83,
-						"width": 754,
-						"height": 279,
+						"width": 1795,
+						"height": 852,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -51,7 +51,7 @@
 					"type": "Button4",
 					"properties": {
 						"type": "button",
-						"text": "Start Game",
+						"text": "",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
@@ -63,10 +63,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 383,
-						"y": 380,
-						"width": 182,
-						"height": 40,
+						"x": 815,
+						"y": 1010,
+						"width": 418,
+						"height": 108,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -75,6 +75,48 @@
 							1,
 							1
 						]
+					}
+				},
+				{
+					"type": "Text2",
+					"properties": {
+						"text": "Start",
+						"enable-bbcode": true,
+						"font": "Verdana",
+						"size": 39,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 192,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 848,
+						"y": 1025,
+						"width": 352,
+						"height": 80,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],

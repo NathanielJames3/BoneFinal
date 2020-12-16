@@ -353,6 +353,11 @@
 					"name": "Fight in the Dungeon.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 583821347494231
+				},
+				{
+					"name": "monster-6.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 697283073431477
 				}
 			],
 			"subfolders": []

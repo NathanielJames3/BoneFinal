@@ -2262,6 +2262,17 @@
 					"parameters": {
 						"which": "next"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 452602031969259,
+					"parameters": {
+						"audio-file": "monster-6",
+						"loop": "not-looping",
+						"volume": "-12",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 184908188464232
